@@ -51,6 +51,23 @@ button{font:inherit}
   z-index:-1;
 }
 
+  clip-path:
+polygon(
+0 0,
+100% 10%,
+100% 100%,
+0 90%
+);
+
+  .preview-window {
+  overflow:hidden;
+  height:700px;
+}
+
+.preview-image {
+  transform:translateY(0);
+}
+
 .bg-orb{
   position:fixed;
   border-radius:50%;
@@ -990,6 +1007,11 @@ document.querySelectorAll(".track-card,.price-card").forEach(card => {
     card.style.background = "";
   });
 });
+
+  window.addEventListener('scroll', () => {
+ preview.style.transform =
+   `translateY(${window.scrollY * -.15}px)`
+})
 </script>
 
 </body>
