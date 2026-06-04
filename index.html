@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zenta Creative — Websites That Move Business</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#030507;
+  --card:#0b1118;
+  --card2:#111a25;
+  --text:#f4f7fb;
+  --muted:#93a2b5;
+  --line:rgba(255,255,255,.1);
+  --lime:#b9ff66;
+  --cyan:#5ee7ff;
+  --violet:#9b7cff;
+  --pink:#ff4ecd;
+  --orange:#ffb86b;
+  --radius:28px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Manrope,system-ui,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  overflow-x:hidden;
+}
+a{text-decoration:none;color:inherit}
+button{font:inherit}
+
+.noise{
+  position:fixed;inset:0;pointer-events:none;z-index:1000;
+  opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.cursor-glow{
+  position:fixed;
+  width:420px;height:420px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(185,255,102,.18),transparent 65%);
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  z-index:-1;
+}
+
+.bg-orb{
+  position:fixed;
+  border-radius:50%;
+  filter:blur(60px);
+  opacity:.45;
+  z-index:-2;
+  animation:float 9s ease-in-out infinite alternate;
+}
+.orb1{width:430px;height:430px;background:var(--violet);top:-120px;left:-100px}
+.orb2{width:520px;height:520px;background:var(--cyan);right:-180px;top:22vh;animation-delay:1s}
+.orb3{width:390px;height:390px;background:var(--pink);left:25vw;bottom:-170px;animation-delay:2s}
+@keyframes float{to{transform:translate(40px,-30px) scale(1.12)}}
+
+.container{width:min(1180px,calc(100% - 36px));margin:auto}
+
+.nav{
+  position:fixed;top:18px;left:50%;transform:translateX(-50%);
+  width:min(1180px,calc(100% - 36px));
+  z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px;
+  border:1px solid var(--line);
+  background:rgba(3,5,7,.68);
+  backdrop-filter:blur(20px);
+  border-radius:999px;
+}
+.logo{
+  padding-left:14px;
+  font-size:22px;
+  font-weight:900;
+  letter-spacing:-.06em;
+}
+.logo span{color:var(--lime)}
+.nav-links{display:flex;align-items:center;gap:4px}
+.nav-links a{
+  padding:11px 15px;
+  border-radius:999px;
+  color:var(--muted);
+  font-size:14px;
+  font-weight:800;
+}
+.nav-links a:hover{background:rgba(255,255,255,.08);color:var(--text)}
+.nav-links .cta{
+  background:var(--text);
+  color:var(--bg);
+}
+.menu{
+  display:none;
+  border:0;
+  background:var(--text);
+  color:var(--bg);
+  border-radius:999px;
+  padding:11px 16px;
+  font-weight:900;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  padding:140px 0 80px;
+  position:relative;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1fr .9fr;
+  gap:46px;
+  align-items:center;
+}
+.eyebrow{
+  display:inline-flex;
+  gap:10px;
+  align-items:center;
+  padding:10px 14px;
+  border:1px solid rgba(185,255,102,.28);
+  background:rgba(185,255,102,.08);
+  color:var(--lime);
+  border-radius:999px;
+  font-weight:900;
+  font-size:13px;
+  margin-bottom:28px;
+}
+h1{
+  font-size:clamp(54px,9vw,124px);
+  line-height:.86;
+  letter-spacing:-.08em;
+  max-width:820px;
+}
+.serif{
+  font-family:"Playfair Display",serif;
+  font-style:italic;
+  color:var(--lime);
+  letter-spacing:-.06em;
+}
+.hero-copy{
+  max-width:610px;
+  margin-top:28px;
+  color:var(--muted);
+  font-size:20px;
+}
+.hero-actions{
+  display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;
+}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:15px 22px;
+  border-radius:999px;
+  font-weight:900;
+  transition:.22s ease;
+}
+.btn-primary{background:var(--lime);color:#071006}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 18px 60px rgba(185,255,102,.22)}
+.btn-secondary{border:1px solid var(--line);background:rgba(255,255,255,.06);color:var(--text)}
+.btn-secondary:hover{background:rgba(255,255,255,.1);transform:translateY(-3px)}
+
+.hero-visual{
+  min-height:590px;
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.02));
+  border-radius:42px;
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 40px 120px rgba(0,0,0,.4);
+}
+.rings{
+  position:absolute;inset:50px;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:50%;
+  animation:spin 16s linear infinite;
+}
+.rings::before,.rings::after{
+  content:"";position:absolute;border:1px solid rgba(255,255,255,.12);border-radius:50%;
+}
+.rings::before{inset:70px}
+.rings::after{inset:140px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.phone{
+  position:absolute;
+  width:270px;
+  left:50%;top:50%;
+  transform:translate(-50%,-50%) rotate(-5deg);
+  background:#eef7ff;
+  color:#061017;
+  border-radius:36px;
+  padding:14px;
+  box-shadow:0 30px 90px rgba(0,0,0,.5);
+}
+.phone-screen{
+  min-height:460px;
+  border-radius:28px;
+  background:
+    radial-gradient(circle at 70% 10%,rgba(185,255,102,.9),transparent 28%),
+    linear-gradient(160deg,#101b26,#05080c);
+  color:white;
+  padding:22px;
+}
+.phone-pill{
+  display:inline-block;
+  background:rgba(255,255,255,.13);
+  border:1px solid rgba(255,255,255,.15);
+  padding:8px 10px;
+  border-radius:999px;
+  color:var(--lime);
+  font-size:12px;
+  font-weight:900;
+}
+.phone h3{
+  font-size:42px;
+  line-height:.94;
+  letter-spacing:-.06em;
+  margin:38px 0 16px;
+}
+.phone-card{
+  margin-top:16px;
+  padding:14px;
+  border-radius:18px;
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.12);
+  color:#dce8f5;
+  font-size:13px;
+}
+.stat-float{
+  position:absolute;
+  padding:17px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.09);
+  backdrop-filter:blur(12px);
+  border-radius:22px;
+  box-shadow:0 20px 60px rgba(0,0,0,.35);
+  animation:bob 3s ease-in-out infinite alternate;
+}
+.stat-float strong{display:block;font-size:24px}
+.stat-float span{color:var(--muted);font-size:13px}
+.s1{top:70px;left:30px}
+.s2{right:30px;bottom:80px;animation-delay:.8s}
+@keyframes bob{to{transform:translateY(-14px)}}
+
+.section{padding:110px 0}
+.section-head{max-width:840px;margin-bottom:44px}
+.kicker{
+  color:var(--lime);
+  font-size:13px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  margin-bottom:14px;
+}
+h2{
+  font-size:clamp(40px,6vw,82px);
+  line-height:.9;
+  letter-spacing:-.075em;
+}
+.section-copy{
+  color:var(--muted);
+  font-size:19px;
+  margin-top:20px;
+  max-width:680px;
+}
+
+.track{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+.track-card{
+  min-height:260px;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:26px;
+  background:rgba(255,255,255,.045);
+  position:relative;
+  overflow:hidden;
+  transition:.25s;
+}
+.track-card:hover{transform:translateY(-8px);background:rgba(255,255,255,.075)}
+.track-card::after{
+  content:"";
+  position:absolute;
+  width:150px;height:150px;
+  right:-55px;bottom:-55px;
+  border-radius:50%;
+  background:var(--lime);
+  opacity:.12;
+}
+.track-card strong{
+  display:block;
+  color:var(--lime);
+  font-size:15px;
+  margin-bottom:80px;
+}
+.track-card h3{
+  font-size:27px;
+  line-height:1;
+  letter-spacing:-.04em;
+  margin-bottom:12px;
+}
+.track-card p{color:var(--muted)}
+
+.case{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:22px;
+}
+.case-shot{
+  min-height:560px;
+  border-radius:38px;
+  border:1px solid var(--line);
+  background:
+    linear-gradient(145deg,rgba(185,255,102,.18),transparent),
+    var(--card);
+  padding:22px;
+  position:relative;
+  overflow:hidden;
+}
+.case-browser{
+  height:100%;
+  border-radius:28px;
+  background:#f7f1df;
+  color:#09110d;
+  overflow:hidden;
+  transform:rotate(-1.2deg);
+}
+.browser-top{
+  height:54px;
+  border-bottom:2px solid #09110d;
+  display:flex;align-items:center;gap:8px;padding-left:20px;
+}
+.dot{width:12px;height:12px;background:#09110d;border-radius:50%}
+.browser-content{padding:34px}
+.browser-content h3{
+  font-size:66px;
+  line-height:.82;
+  letter-spacing:-.08em;
+}
+.browser-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+  margin-top:36px;
+}
+.browser-box{
+  border:2px solid #09110d;
+  border-radius:18px;
+  padding:18px;
+  font-weight:900;
+}
+.case-info{
+  border:1px solid var(--line);
+  border-radius:38px;
+  background:rgba(255,255,255,.045);
+  padding:34px;
+  align-self:stretch;
+}
+.case-info h3{
+  font-size:48px;
+  line-height:.95;
+  letter-spacing:-.06em;
+}
+.case-info p{
+  color:var(--muted);
+  margin:18px 0 28px;
+  font-size:18px;
+}
+.result-list{display:grid;gap:12px;margin-bottom:28px}
+.result{
+  padding:16px;
+  border-radius:18px;
+  background:rgba(255,255,255,.06);
+  border:1px solid var(--line);
+  color:var(--muted);
+}
+.result b{color:white}
+
+.timeline{
+  position:relative;
+}
+.timeline::before{
+  content:"";
+  position:absolute;
+  left:22px;top:0;bottom:0;width:2px;
+  background:linear-gradient(var(--lime),var(--cyan),var(--pink));
+}
+.step{
+  position:relative;
+  display:grid;
+  grid-template-columns:80px 1fr;
+  gap:24px;
+  padding:0 0 54px;
+}
+.step:last-child{padding-bottom:0}
+.step-dot{
+  width:46px;height:46px;
+  border-radius:50%;
+  background:var(--lime);
+  color:#061006;
+  display:grid;place-items:center;
+  font-weight:900;
+  position:relative;
+  z-index:1;
+}
+.step-card{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.045);
+  border-radius:28px;
+  padding:28px;
+}
+.step-card h3{
+  font-size:32px;
+  letter-spacing:-.05em;
+}
+.step-card p{
+  color:var(--muted);
+  margin-top:8px;
+  font-size:17px;
+}
+
+.pricing{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.price-card{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.045);
+  border-radius:34px;
+  padding:30px;
+  position:relative;
+  overflow:hidden;
+}
+.price-card.featured{
+  background:linear-gradient(180deg,rgba(185,255,102,.16),rgba(255,255,255,.05));
+  border-color:rgba(185,255,102,.45);
+  transform:translateY(-12px);
+}
+.price-card h3{
+  font-size:34px;
+  letter-spacing:-.05em;
+}
+.price-card p{color:var(--muted);margin:10px 0 22px}
+.price{
+  font-size:64px;
+  font-weight:900;
+  letter-spacing:-.08em;
+}
+.monthly{
+  color:var(--lime);
+  font-weight:900;
+  margin:8px 0 24px;
+}
+.features{
+  list-style:none;
+  display:grid;
+  gap:12px;
+  color:var(--muted);
+  margin-bottom:28px;
+}
+.features li::before{
+  content:"✦";
+  color:var(--lime);
+  margin-right:9px;
+}
+
+.faq-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+.faq{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.045);
+  border-radius:24px;
+  overflow:hidden;
+}
+.faq button{
+  width:100%;
+  background:none;
+  border:0;
+  color:white;
+  padding:22px;
+  cursor:pointer;
+  display:flex;
+  justify-content:space-between;
+  font-weight:900;
+  text-align:left;
+}
+.faq div{
+  display:none;
+  color:var(--muted);
+  padding:0 22px 22px;
+}
+.faq.open div{display:block}
+
+.final{
+  padding:120px 0;
+}
+.final-card{
+  text-align:center;
+  border:1px solid rgba(185,255,102,.28);
+  background:
+    radial-gradient(circle at 50% 0,rgba(185,255,102,.25),transparent 38%),
+    rgba(255,255,255,.045);
+  border-radius:44px;
+  padding:90px 28px;
+}
+.final-card h2{max-width:900px;margin:auto}
+.final-card p{
+  max-width:650px;
+  margin:22px auto 34px;
+  color:var(--muted);
+  font-size:19px;
+}
+
+footer{
+  border-top:1px solid var(--line);
+  padding:34px 0;
+  color:var(--muted);
+}
+.footer-inner{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.reveal{
+  opacity:0;
+  transform:translateY(40px);
+  filter:blur(8px);
+  transition:opacity .8s ease, transform .8s ease, filter .8s ease;
+}
+.reveal.show{
+  opacity:1;
+  transform:translateY(0);
+  filter:blur(0);
+}
+.reveal-left{transform:translateX(-50px);opacity:0;filter:blur(8px);transition:.8s}
+.reveal-right{transform:translateX(50px);opacity:0;filter:blur(8px);transition:.8s}
+.reveal-left.show,.reveal-right.show{transform:translateX(0);opacity:1;filter:blur(0)}
+
+@media(max-width:900px){
+  .nav-links{display:none}
+  .menu{display:block}
+  .nav.open{border-radius:28px;align-items:flex-start}
+  .nav.open .nav-links{
+    display:grid;
+    position:absolute;
+    left:12px;right:12px;top:62px;
+    background:rgba(3,5,7,.96);
+    border:1px solid var(--line);
+    border-radius:22px;
+    padding:12px;
+  }
+  .hero-grid,.case,.track,.pricing,.faq-grid{grid-template-columns:1fr}
+  .hero-visual{min-height:520px}
+  .price-card.featured{transform:none}
+  .footer-inner{flex-direction:column}
+}
+
+@media(max-width:560px){
+  .container{width:min(100% - 28px,1180px)}
+  h1{font-size:58px}
+  .hero{padding-top:126px}
+  .hero-copy,.section-copy{font-size:16px}
+  .phone{width:235px}
+  .phone-screen{min-height:390px}
+  .stat-float{font-size:13px}
+  .track-card{min-height:220px}
+  .browser-content h3{font-size:46px}
+  .browser-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+<div class="noise"></div>
+<div class="cursor-glow" id="glow"></div>
+<div class="bg-orb orb1"></div>
+<div class="bg-orb orb2"></div>
+<div class="bg-orb orb3"></div>
+
+<nav class="nav" id="nav">
+  <a class="logo" href="#">Zenta<span>.</span></a>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#system">System</a>
+    <a href="#process">Process</a>
+<a href="#google">Google Setup</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a class="cta" href="https://wa.me/5970000000">Start Project</a>
+  </div>
+  <button class="menu" id="menu">Menu</button>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow reveal">✦ Framer websites · WhatsApp booking · Suriname</div>
+      <h1 class="reveal">
+        Websites with motion, clarity, and <span class="serif">momentum.</span>
+      </h1>
+      <p class="hero-copy reveal">
+        Zenta creates immersive, mobile-first websites that help local businesses look credible, explain their services, and turn visitors into WhatsApp conversations.
+      </p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-primary" href="https://wa.me/5970000000">Get a free website plan →</a>
+        <a class="btn btn-secondary" href="#work">Explore the experience</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal-right" data-parallax="0.08">
+      <div class="rings"></div>
+      <div class="stat-float s1"><strong>7–10</strong><span>days to launch</span></div>
+      <div class="stat-float s2"><strong>24hr</strong><span>support response</span></div>
+      <div class="phone">
+        <div class="phone-screen">
+          <span class="phone-pill">Live booking flow</span>
+          <h3>Tap. Message. Book.</h3>
+          <div class="phone-card">WhatsApp CTAs designed around real customer behavior.</div>
+          <div class="phone-card">Mobile-first sections that make services easy to understand.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="system">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="kicker">The Zenta System</p>
+      <h2>A site built around the way customers actually decide.</h2>
+      <p class="section-copy">
+        Every section has a job: attract attention, explain value, create trust, and move people toward contact.
+      </p>
+    </div>
+
+    <div class="track">
+      <div class="track-card reveal">
+        <strong>01 / Attention</strong>
+        <h3>Instant visual impact</h3>
+        <p>Your site should feel professional within the first second.</p>
+      </div>
+      <div class="track-card reveal">
+        <strong>02 / Clarity</strong>
+        <h3>Clear service story</h3>
+        <p>Visitors understand what you offer without asking extra questions.</p>
+      </div>
+      <div class="track-card reveal">
+        <strong>03 / Trust</strong>
+        <h3>Proof and structure</h3>
+        <p>Work, process, pricing, and FAQs reduce hesitation.</p>
+      </div>
+      <div class="track-card reveal">
+        <strong>04 / Action</strong>
+        <h3>WhatsApp conversion</h3>
+        <p>Every page guides people toward a simple message.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add this section after #system and before #work -->
+<section class="section" id="google">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="kicker">Local Visibility</p>
+      <h2>Get your business found on Google.</h2>
+      <p class="section-copy">
+        Many small businesses in Suriname either do not have a Google Business Profile, are not verified, or do not appear properly on Google Maps. Zenta sets it up so customers can find, call, message, and visit you faster.
+      </p>
+    </div>
+
+    <div class="case">
+      <div class="case-info reveal-left">
+        <h3>Google Business Profile Setup</h3>
+        <p>
+          A simple, high-value service for local businesses that want to show up professionally on Google Search and Google Maps.
+        </p>
+
+        <div class="result-list">
+          <div class="result"><b>Profile:</b> Google Business Profile creation.</div>
+          <div class="result"><b>Maps:</b> Location pin setup and verification assistance.</div>
+          <div class="result"><b>Details:</b> Description, hours, contact info, website, and WhatsApp link.</div>
+          <div class="result"><b>Branding:</b> Logo upload, cover photo setup, and category optimization.</div>
+        </div>
+
+        <a class="btn btn-primary" href="https://wa.me/5970000000">Set Up My Google Profile →</a>
+      </div>
+
+      <div class="case-shot reveal-right">
+        <div class="case-browser">
+          <div class="browser-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+
+          <div class="browser-content">
+            <h3>Show up when customers search.</h3>
+
+            <div class="browser-grid">
+              <div class="browser-box">Google Maps Pin</div>
+              <div class="browser-box">Opening Hours</div>
+              <div class="browser-box">WhatsApp Link</div>
+              <div class="browser-box">Review Ready</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="track" style="margin-top:22px;">
+      <div class="track-card reveal">
+        <strong>Google Maps Setup</strong>
+        <h3>$75</h3>
+        <p>Profile creation, location pin, business info, logo, cover photo, links, and verification help.</p>
+      </div>
+
+      <div class="track-card reveal">
+        <strong>Review Optimization Kit</strong>
+        <h3>$25</h3>
+        <p>Review link, WhatsApp review message, QR prompt, and customer follow-up copy.</p>
+      </div>
+
+      <div class="track-card reveal">
+        <strong>Maps + Reviews Bundle</strong>
+        <h3>$90</h3>
+        <p>Best add-on for businesses that want to look easier to find and more trustworthy.</p>
+      </div>
+
+      <div class="track-card reveal">
+        <strong>Included</strong>
+        <h3>Growth + Premium</h3>
+        <p>Google setup is included in Growth. Google Maps + Reviews Bundle is included in Premium.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="kicker">Featured Build</p>
+      <h2>Mokisa Wellness, redesigned for clarity and booking.</h2>
+    </div>
+
+    <div class="case">
+      <div class="case-shot reveal-left" data-parallax="0.05">
+        <div class="case-browser">
+          <div class="browser-top">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+          <div class="browser-content">
+            <h3>Traditional wellness online.</h3>
+            <div class="browser-grid">
+              <div class="browser-box">WhatsApp Booking</div>
+              <div class="browser-box">Treatment Pages</div>
+              <div class="browser-box">Mobile Layout</div>
+              <div class="browser-box">Cultural Identity</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case-info reveal-right">
+        <h3>A local business website should feel trustworthy before it sells.</h3>
+        <p>
+          The Mokisa Wellness site focuses on service education, cultural identity, multilingual context, and direct WhatsApp contact.
+        </p>
+
+        <div class="result-list">
+          <div class="result"><b>Goal:</b> make treatments easier to understand.</div>
+          <div class="result"><b>Flow:</b> move visitors from service interest to WhatsApp.</div>
+          <div class="result"><b>Experience:</b> mobile-first and easy to navigate.</div>
+        </div>
+
+        <a class="btn btn-primary" href="https://mokisawellness.com" target="_blank" rel="noopener">Visit Mokisa ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="kicker">Process</p>
+      <h2>From idea to launch without the chaos.</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="step reveal">
+        <div class="step-dot">1</div>
+        <div class="step-card">
+          <h3>Business Signal Audit</h3>
+          <p>We define your audience, services, offer, and the most important action your site should drive.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-dot">2</div>
+        <div class="step-card">
+          <h3>Page Architecture</h3>
+          <p>We map the homepage, service pages, trust blocks, pricing, FAQs, and WhatsApp paths.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-dot">3</div>
+        <div class="step-card">
+          <h3>Design, Motion, Build</h3>
+          <p>Your website is built with responsive layouts, scroll animation, visual polish, and Framer-ready structure.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="step-dot">4</div>
+        <div class="step-card">
+          <h3>Launch and Care</h3>
+          <p>Domain, hosting, WhatsApp setup, revisions, and ongoing updates are handled according to your package.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="kicker">Packages</p>
+      <h2>Three ways to launch your new website.</h2>
+    </div>
+
+    <div class="pricing">
+      <div class="price-card reveal">
+        <h3>Starter</h3>
+        <p>For new businesses that need a clean online presence.</p>
+        <div class="price">$175</div>
+        <div class="monthly">+ $50/mo hosting & maintenance</div>
+        <ul class="features">
+          <li>Up to 3 pages</li>
+          <li>WhatsApp booking button</li>
+          <li>Mobile responsive design</li>
+          <li>Framer hosting setup</li>
+          <li>1 revision round</li>
+        </ul>
+        <a class="btn btn-secondary" href="https://wa.me/5970000000">Start small →</a>
+      </div>
+
+      <div class="price-card featured reveal">
+        <h3>Growth</h3>
+        <p>For businesses that want stronger trust and support.</p>
+        <div class="price">$250</div>
+        <div class="monthly">+ $65/mo hosting, updates & support</div>
+        <ul class="features">
+          <li>Up to 5 pages</li>
+          <li>WhatsApp form pre-fills</li>
+          <li>Custom domain connected</li>
+<li>Google Business Profile setup included</li>
+          <li>2 monthly content updates</li>
+          <li>24hr support</li>
+        </ul>
+        <a class="btn btn-primary" href="https://wa.me/5970000000">Best choice →</a>
+      </div>
+
+      <div class="price-card reveal">
+        <h3>Premium</h3>
+        <p>For businesses that want everything handled.</p>
+        <div class="price">$450</div>
+        <div class="monthly">+ $120/mo full management</div>
+        <ul class="features">
+          <li>Up to 7 pages</li>
+          <li>Advanced WhatsApp flow</li>
+          <li>Unlimited content updates</li>
+          <li>Priority support</li>
+          <li>Quarterly design refresh</li>
+<li>Google Maps + Reviews Bundle included</li>
+        </ul>
+        <a class="btn btn-secondary" href="https://wa.me/5970000000">Go premium →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="kicker">FAQ</p>
+      <h2>Quick answers before we build.</h2>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq open reveal">
+        <button>How long does launch take? <span>+</span></button>
+        <div>Most websites launch in 7–10 days depending on content, package size, and feedback speed.</div>
+      </div>
+      <div class="faq reveal">
+        <button>Can you connect my domain? <span>+</span></button>
+        <div>Yes. Growth and Premium include domain connection. Starter can add it as an upgrade.</div>
+      </div>
+      <div class="faq reveal">
+        <button>Do you include WhatsApp booking? <span>+</span></button>
+        <div>Yes. Every package includes WhatsApp integration. Higher packages can include advanced pre-filled flows.</div>
+      </div>
+      <div class="faq reveal">
+        <button>Can you maintain the site? <span>+</span></button>
+        <div>Yes. Monthly plans include hosting, updates, and support depending on your selected package.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="container">
+    <div class="final-card reveal">
+      <h2>Ready for a website that feels alive?</h2>
+      <p>Send Zenta a WhatsApp message and get a clear website plan for your business.</p>
+      <a class="btn btn-primary" href="https://wa.me/5970000000">Message on WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <strong class="logo">Zenta<span>.</span></strong>
+    <p>© 2026 Zenta Creative — Web design for small businesses in Suriname.</p>
+  </div>
+</footer>
+
+<script>
+const glow = document.getElementById("glow");
+document.addEventListener("mousemove", e => {
+  glow.style.left = e.clientX + "px";
+  glow.style.top = e.clientY + "px";
+});
+
+const nav = document.getElementById("nav");
+document.getElementById("menu").addEventListener("click", () => {
+  nav.classList.toggle("open");
+});
+
+document.querySelectorAll(".nav-links a").forEach(a => {
+  a.addEventListener("click", () => nav.classList.remove("open"));
+});
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+},{threshold:.14});
+
+document.querySelectorAll(".reveal,.reveal-left,.reveal-right").forEach(el => {
+  observer.observe(el);
+});
+
+document.querySelectorAll(".faq button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    btn.parentElement.classList.toggle("open");
+  });
+});
+
+const parallaxEls = document.querySelectorAll("[data-parallax]");
+window.addEventListener("scroll", () => {
+  const y = window.scrollY;
+  parallaxEls.forEach(el => {
+    const speed = parseFloat(el.dataset.parallax);
+    el.style.transform = `translateY(${y * speed}px)`;
+  });
+});
+
+document.querySelectorAll(".track-card,.price-card").forEach(card => {
+  card.addEventListener("mousemove", e => {
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    card.style.background = `
+      radial-gradient(circle at ${x}px ${y}px, rgba(185,255,102,.13), rgba(255,255,255,.045) 38%)
+    `;
+  });
+
+  card.addEventListener("mouseleave", () => {
+    card.style.background = "";
+  });
+});
+</script>
+
+</body>
+</html>
