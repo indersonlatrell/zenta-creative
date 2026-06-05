@@ -422,10 +422,33 @@ h2{
   position: relative;
 }
 
+  .browser-frame{
+  overflow:hidden;
+  border-radius:32px;
+  background:white;
+}
+
+.browser-bar{
+  height:48px;
+  background:#f3f3f3;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:0 16px;
+  border-bottom:1px solid #ddd;
+}
+
+.browser-bar span{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:#d0d0d0;
+}
+
 .preview-image {
   width: 100%;
+  height: auto;
   display: block;
-  will-change: transform;
 }
 
 .google-wrap{
@@ -984,12 +1007,24 @@ footer{
       </div>
 
       <div class="preview-window">
-  <img
-    src="images/mokisa-homepage.jpg"
-    alt="Mokisa Wellness Website"
-    class="preview-image"
-    id="previewImage"
-  />
+
+  <div class="browser-frame">
+
+    <div class="browser-bar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <img
+      src="images/mokisa-homepage.jpg"
+      alt="Mokisa Wellness Website"
+      class="preview-image"
+      id="previewImage"
+    />
+
+  </div>
+
 </div>
     </div>
   </div>
