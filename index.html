@@ -388,29 +388,8 @@ h2{
   padding:20px;
   box-shadow:0 40px 120px rgba(0,0,0,.32);
 }
-.preview-site{
-  min-height:1000px;
-  border-radius:28px;
-  background:#f7f1df;
-  color:#08100c;
-  overflow:hidden;
-  will-change:transform;
-}
-.preview-nav{
-  height:64px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding:0 24px;
-  border-bottom:2px solid #08100c;
-  font-weight:900;
-}
-.preview-hero{
-  padding:54px 34px;
-  background:
-    radial-gradient(circle at 82% 12%,rgba(185,255,102,.85),transparent 28%),
-    #f7f1df;
-}
+
+
 .preview-hero h4{
   font-size:72px;
   line-height:.82;
@@ -423,34 +402,30 @@ h2{
   color:rgba(8,16,12,.66);
   max-width:470px;
 }
-.preview-grid{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:14px;
-  padding:28px;
-}
-.preview-box{
-  min-height:160px;
-  border:2px solid #08100c;
-  border-radius:22px;
-  padding:20px;
-  font-weight:900;
-  background:white;
-}
+
 .preview-box:nth-child(2){background:var(--lime)}
 .preview-box:nth-child(3){background:var(--cyan)}
 .preview-box:nth-child(4){background:var(--orange)}
-.preview-footer{
-  margin:28px;
-  padding:40px;
-  border-radius:28px;
-  background:#08100c;
-  color:white;
-}
+
 .preview-footer h4{
   font-size:48px;
   line-height:.9;
   letter-spacing:-.07em;
+}
+
+  .preview-window {
+  height: 680px;
+  overflow: hidden;
+  border-radius: 38px;
+  border: 1px solid var(--line);
+  background: #fff;
+  position: relative;
+}
+
+.preview-image {
+  width: 100%;
+  display: block;
+  will-change: transform;
 }
 
 .google-wrap{
@@ -1008,31 +983,14 @@ footer{
         <a class="btn btn-primary" href="https://mokisawellness.com" target="_blank" rel="noopener">View Live Website ↗</a>
       </div>
 
-      <div class="preview-window reveal-right">
-        <div class="preview-site" id="previewSite">
-          <div class="preview-nav">
-            <span>Mokisa</span>
-            <span>Book Now</span>
-          </div>
-
-          <div class="preview-hero">
-            <h4>Traditional wellness, online.</h4>
-            <p>Explore treatments, learn the story, and book directly through WhatsApp.</p>
-          </div>
-
-          <div class="preview-grid">
-            <div class="preview-box">Treatment pages</div>
-            <div class="preview-box">WhatsApp booking</div>
-            <div class="preview-box">Mobile responsive</div>
-            <div class="preview-box">Cultural design language</div>
-          </div>
-
-          <div class="preview-footer">
-            <h4>Ready to feel better?</h4>
-            <p style="color:#93a2b5;margin-top:14px;">Message us on WhatsApp to book your appointment.</p>
-          </div>
-        </div>
-      </div>
+      <div class="preview-window">
+  <img
+    src="images/mokisa-homepage.jpg"
+    alt="Mokisa Wellness Website"
+    class="preview-image"
+    id="previewImage"
+  />
+</div>
     </div>
   </div>
 </section>
@@ -1431,12 +1389,23 @@ window.addEventListener("scroll", () => {
     el.style.transform = `translateY(${y * speed}px)`;
   });
 
-  const preview = document.getElementById("previewSite");
-  if(preview){
-    const rect = preview.parentElement.getBoundingClientRect();
-    const progress = Math.min(Math.max((window.innerHeight - rect.top) / (window.innerHeight + rect.height), 0), 1);
-    preview.style.transform = `translateY(${-progress * 260}px)`;
-  }
+  const preview = document.getElementById("previewImage");
+
+if (preview) {
+  const rect = preview.parentElement.getBoundingClientRect();
+
+  const progress = Math.min(
+    Math.max(
+      (window.innerHeight - rect.top) /
+      (window.innerHeight + rect.height),
+      0
+    ),
+    1
+  );
+
+  preview.style.transform =
+    `translateY(${-progress * 500}px)`;
+}
 });
 
 document.querySelectorAll(".track-card,.price-card,.funnel-card").forEach(card => {
