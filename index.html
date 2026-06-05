@@ -319,6 +319,9 @@ h2{
 }
 
 .funnel-card:hover, .funnel-card:focus-visible {
+  transition: 
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -329,9 +332,6 @@ h2{
 }
   
 .funnel-card{
-  transition: 
-    transform 0.3s ease-in-out,
-    box-shadow 0.3s ease-in-out;
   position:relative;
   z-index:1;
   min-height:280px;
