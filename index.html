@@ -560,21 +560,30 @@ window.addEventListener("scroll", () => {
 
   const preview = document.getElementById("previewImage");
 
-if (preview) {
-  const rect = preview.parentElement.getBoundingClientRect();
+  if (preview) {
+    const frame = preview.parentElement;
+    const rect = frame.getBoundingClientRect();
 
-  const progress = Math.min(
-    Math.max(
-      (window.innerHeight - rect.top) /
-      (window.innerHeight + rect.height),
+    const progress = Math.min(
+      Math.max(
+        (window.innerHeight - rect.top) /
+        (window.innerHeight + rect.height),
+        0
+      ),
+      1
+    );
+
+    const browserBar = frame.querySelector(".browser-bar");
+    const browserBarHeight = browserBar ? browserBar.offsetHeight : 0;
+    const visibleImageHeight = frame.clientHeight - browserBarHeight;
+    const availableScroll = Math.max(
+      preview.scrollHeight - visibleImageHeight,
       0
-    ),
-    1
-  );
+    );
 
-  preview.style.transform =
-    `translateY(${-progress * 500}px)`;
-}
+    preview.style.transform =
+      `translateY(${-progress * availableScroll}px)`;
+  }
 });
 
 document.querySelectorAll(".track-card,.price-card,.funnel-card").forEach(card => {
