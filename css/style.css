@@ -983,6 +983,17 @@ h2{
   box-shadow:0 40px 120px rgba(0,0,0,.38);
 }
 
+.example-label{
+  position:relative;
+  z-index:1;
+  margin-bottom:12px;
+  color:#667085;
+  font-size:12px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
 .google-card::before{
   content:"";
   position:absolute;
@@ -1511,6 +1522,16 @@ footer{
   display:flex;
   justify-content:space-between;
   gap:20px;
+}
+
+.footer-contact{
+  color:var(--lime);
+  font-weight:800;
+}
+
+.footer-contact:hover{
+  text-decoration:underline;
+  text-underline-offset:4px;
 }
 
 /*
