@@ -1233,6 +1233,105 @@ h2{
   color:var(--muted);
 }
 
+.ads-audit-layout{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  align-items:stretch;
+  gap:18px;
+}
+
+.ads-audit-intro{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding:34px;
+  border:1px solid var(--line);
+  border-radius:30px;
+  background:rgba(255,255,255,.045);
+}
+
+.ads-audit-intro h3{
+  max-width:540px;
+  font-size:48px;
+  line-height:.96;
+  letter-spacing:-.06em;
+}
+
+.ads-audit-intro > p{
+  margin:20px 0 24px;
+  color:var(--muted);
+  font-size:17px;
+  line-height:1.65;
+}
+
+.platform-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:30px;
+}
+
+.platform-list span{
+  padding:8px 11px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:var(--text);
+  background:rgba(255,255,255,.06);
+  font-size:12px;
+  font-weight:800;
+}
+
+.ads-audit-intro .btn{
+  margin-top:auto;
+}
+
+.audit-points{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+.audit-points article{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  align-content:start;
+  gap:16px;
+  min-height:220px;
+  padding:26px;
+  border:1px solid var(--line);
+  border-radius:28px;
+  background:rgba(255,255,255,.045);
+}
+
+.audit-points strong{
+  display:grid;
+  place-items:center;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  color:var(--bg);
+  background:var(--lime);
+  font-size:12px;
+  font-weight:900;
+}
+
+.audit-points h3{
+  margin:7px 0 10px;
+  font-size:22px;
+  line-height:1.05;
+}
+
+.audit-points p,
+.audit-note{
+  color:var(--muted);
+}
+
+.audit-note{
+  max-width:780px;
+  margin-top:20px;
+  font-size:13px;
+}
+
 .fail-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -1667,6 +1766,7 @@ footer{
   .hero-grid,
   .growth-showcase,
   .google-wrap,
+  .ads-audit-layout,
   .track,
   .pricing,
   .faq-grid,
@@ -1703,6 +1803,10 @@ footer{
   .google-actions,
   .google-stats{
     grid-template-columns:1fr;
+  }
+
+  .audit-points{
+    grid-template-columns:1fr 1fr;
   }
 
   .premium-card .monthly{
@@ -1843,6 +1947,23 @@ footer{
 
   .google-panel{
     padding:26px;
+  }
+
+  .ads-audit-intro{
+    padding:26px;
+  }
+
+  .ads-audit-intro h3{
+    font-size:38px;
+  }
+
+  .audit-points{
+    grid-template-columns:1fr;
+  }
+
+  .audit-points article{
+    min-height:auto;
+    padding:22px;
   }
 
   .google-panel h3{
