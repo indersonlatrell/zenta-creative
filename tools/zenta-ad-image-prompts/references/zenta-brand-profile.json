@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "brand": {
+    "name": "Zenta Creative",
+    "short_mark": "Zenta.",
+    "website": "https://zentacreative.com/",
+    "email": "info@zentacreative.com",
+    "geography": "Suriname",
+    "positioning": "Websites and digital visibility systems that help businesses get online, get found, and get chosen.",
+    "voice": [
+      "clear",
+      "confident",
+      "expert but accessible",
+      "direct",
+      "growth-focused"
+    ],
+    "visual_identity": {
+      "background": "#030507",
+      "text": "#F4F7FB",
+      "primary_accent": "#B9FF66",
+      "secondary_accents": [
+        "#5EE7FF",
+        "#9B7CFF",
+        "#FF4ECD",
+        "#FFB86B"
+      ],
+      "type_style": "bold modern geometric sans-serif with strong hierarchy",
+      "image_style": "high-contrast contemporary editorial imagery, precise digital interface cues, authentic Suriname business context, clean focal composition",
+      "avoid": [
+        "generic corporate stock photography",
+        "one-color neon overload",
+        "busy dashboards with unreadable text",
+        "fake platform interfaces",
+        "visual stereotypes about Suriname",
+        "unlicensed third-party logos"
+      ]
+    }
+  },
+  "approved_services": [
+    {
+      "service_id": "website-launch",
+      "name": "Launch Website Package",
+      "approved_price_usd": 250,
+      "approved_claims": [
+        "website up to 3 pages",
+        "WhatsApp booking button",
+        "mobile-responsive design",
+        "hosting setup"
+      ]
+    },
+    {
+      "service_id": "website-growth",
+      "name": "Growth Website Package",
+      "approved_price_usd": 325,
+      "approved_claims": [
+        "website up to 5 pages",
+        "Google Business Profile setup included",
+        "custom domain connection",
+        "WhatsApp contact flow"
+      ]
+    },
+    {
+      "service_id": "google-visibility",
+      "name": "Google Business Profile Setup",
+      "approved_claims": [
+        "profile creation or optimization",
+        "Maps pin and business information setup",
+        "verification assistance"
+      ]
+    },
+    {
+      "service_id": "review-system",
+      "name": "Review Optimization Kit",
+      "approved_claims": [
+        "review link",
+        "WhatsApp follow-up copy",
+        "QR review prompt"
+      ]
+    },
+    {
+      "service_id": "ads-snapshot",
+      "name": "Public Ads Review",
+      "approved_price_usd": 49,
+      "approved_claims": [
+        "public Facebook and Instagram presence review",
+        "Meta Ad Library review",
+        "creative, offer, CTA, and landing-page feedback",
+        "prioritized improvement checklist"
+      ]
+    },
+    {
+      "service_id": "meta-ads-audit",
+      "name": "Full Meta Ads Audit",
+      "approved_price_usd": 175,
+      "approved_claims": [
+        "one Meta ad account",
+        "up to 90 days of data",
+        "up to 10 active campaigns",
+        "measurement, attribution, creative, and account review",
+        "written report and 30-day action plan",
+        "30-minute findings call"
+      ]
+    },
+    {
+      "service_id": "multi-platform-audit",
+      "name": "Meta and Google Ads Audit",
+      "approved_price_usd": 325,
+      "approved_claims": [
+        "Meta and Google ad account review",
+        "cross-platform tracking review",
+        "budget allocation assessment",
+        "creative and landing-page review",
+        "written report and 30-day action plan",
+        "60-minute findings call"
+      ]
+    }
+  ],
+  "approved_ctas": [
+    "Request your free website plan",
+    "Start your project",
+    "Set up your Google profile",
+    "Request an ads snapshot",
+    "Audit your Meta Ads",
+    "Book a strategy call"
+  ],
+  "claim_boundaries": [
+    "Do not promise rankings, leads, revenue, bookings, or guaranteed performance.",
+    "Do not present illustrative interfaces, reviews, or metrics as real customer evidence.",
+    "Do not imply affiliation with Meta, Facebook, Instagram, Google, or WhatsApp.",
+    "Verify prices and package scope against the live website before publication."
+  ]
+}

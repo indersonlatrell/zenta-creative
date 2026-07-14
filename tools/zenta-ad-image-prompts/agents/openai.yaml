@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zenta Ad Image Prompts"
+  short_description: "Create expert ad and social image prompts"
+  default_prompt: "Use $zenta-ad-image-prompts to create JSON image prompts for a Zenta Creative campaign."

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "provider": "google_drive",
+  "folder": {
+    "name": "Zenta Creative - Ad Image Prompt Library",
+    "id": "1RkdJQfCWBM3c4GFHoWUsNdPP40wdGSQ9",
+    "url": "https://drive.google.com/drive/folders/1RkdJQfCWBM3c4GFHoWUsNdPP40wdGSQ9"
+  },
+  "initial_library": {
+    "name": "2026-07-14__zenta-visibility-starter-library__v01.json",
+    "id": "19krxHLQSOnmHf0u24_cdDqx6--xHCsjA",
+    "url": "https://drive.google.com/file/d/19krxHLQSOnmHf0u24_cdDqx6--xHCsjA/view?usp=drivesdk"
+  },
+  "verified_at": "2026-07-14T06:09:37-03:00"
+}

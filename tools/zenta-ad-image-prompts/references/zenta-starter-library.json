@@ -1,0 +1,438 @@
+{
+  "schema_version": "1.0.0",
+  "library_id": "zenta-starter-visibility-20260714-v01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T06:10:00-03:00",
+  "status": "draft_for_human_review",
+  "assumptions": [
+    "Initial concepts target owners of small and growing businesses in Suriname.",
+    "Meta Feed and Instagram Feed placement details must be confirmed in the current account preview before publishing.",
+    "Zenta will provide an approved high-resolution logo or add the Zenta. wordmark during final design review.",
+    "Prices and package scope are based on the Zenta Creative website on 2026-07-14 and must be rechecked before use."
+  ],
+  "prompts": [
+    {
+      "prompt_id": "growth-site-digital-front-door-en-01",
+      "content_type": "paid_ad_image",
+      "campaign": {
+        "objective": "lead generation",
+        "conversion": "qualified WhatsApp project inquiry",
+        "service_id": "website-growth",
+        "audience": "Suriname business owners whose online presence does not clearly turn discovery into contact",
+        "funnel_stage": "consideration",
+        "platforms": ["Meta"],
+        "placements": ["Facebook Feed", "Instagram Feed"],
+        "geography": "Suriname",
+        "language": "English"
+      },
+      "creative_strategy": {
+        "concept_name": "The digital front door",
+        "audience_insight": "A business owner may have social profiles but still lack one credible place that explains the offer and makes contact easy.",
+        "message_angle": "A website and Google presence work together as the business's digital front door.",
+        "framework": "Before-After-Bridge",
+        "hook": "Your business deserves more than a link.",
+        "hypothesis": "A tangible digital-front-door metaphor will make the combined website and visibility offer easier to understand than a generic website mockup."
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "spec_status": "needs_platform_preview",
+        "crop_guidance": "Keep the owner, glowing doorway, headline area, and Zenta brand cue inside the central composition with generous edge clearance."
+      },
+      "visual_direction": {
+        "subject": "A confident Suriname small-business owner standing at the threshold of a luminous digital storefront",
+        "action": "The owner opens a sleek dark doorway that reveals a clear website, local discovery, and WhatsApp contact journey",
+        "environment": "Contemporary Paramaribo commercial setting with subtle tropical daylight and no identifiable private business branding",
+        "composition": "Full-bleed portrait composition; human subject in the lower-left third, luminous doorway in the center, clean dark negative space across the upper third for a short headline",
+        "lighting": "Cinematic natural daylight mixed with restrained lime and cyan interface glow",
+        "palette": ["#030507", "#F4F7FB", "#B9FF66", "#5EE7FF", "#9B7CFF"],
+        "style": "Premium editorial advertising photography with realistic people, crisp dimensional lighting, and minimal abstract digital interface cues"
+      },
+      "copy": {
+        "overlay_headline": "Your business deserves more than a link.",
+        "overlay_support": "Website + Google visibility",
+        "cta": "Start your project",
+        "caption": "Give customers one clear place to understand your business, trust what they see, and reach you. Zenta builds conversion-focused websites with Google visibility and WhatsApp contact flows for businesses in Suriname."
+      },
+      "generation_prompt": "Create a premium 4:5 portrait advertising image for Zenta Creative. Show an authentic, confident Suriname small-business owner opening a sleek luminous digital storefront doorway in a contemporary Paramaribo commercial environment. Through the doorway, suggest a connected journey from local discovery to a polished website to WhatsApp contact using elegant abstract interface layers, never copied Google, Meta, or WhatsApp screens. Place the person in the lower-left third, the doorway centrally, and preserve uncluttered near-black negative space across the upper third. Use #030507, white, lime #B9FF66, cyan #5EE7FF, and a restrained violet accent. Cinematic editorial photography, realistic skin and hands, crisp details, sophisticated dimensional light, confident and accessible mood. Render only the exact headline 'Your business deserves more than a link.' and the short support line 'Website + Google visibility' in bold clean sans-serif, plus a small 'Zenta.' wordmark; no other text. Keep all important elements comfortably away from edges for placement cropping.",
+      "negative_constraints": [
+        "no fake testimonials, metrics, rankings, leads, or guarantees",
+        "no copied Google, Meta, Facebook, Instagram, or WhatsApp interfaces or logos",
+        "no generic handshake stock-photo composition",
+        "no stereotypical clothing, landmarks, or cultural props",
+        "no misspelled or extra text",
+        "no distorted faces, fingers, laptops, or phones"
+      ],
+      "accessibility": {
+        "alt_text": "A Suriname business owner opens a glowing digital storefront that symbolizes a connected website, Google visibility, and WhatsApp contact journey.",
+        "contrast_note": "Use white or near-black headline text only where contrast is strong; verify readability at mobile feed size."
+      },
+      "compliance": {
+        "claim_risk": "low",
+        "required_review": [
+          "Verify service scope against the live Growth package.",
+          "Confirm no third-party platform trade dress appears in the generated image.",
+          "Preview cropping and text rendering in every selected Meta placement."
+        ]
+      },
+      "production": {
+        "render_text_in_image": true,
+        "logo_instruction": "Use only the approved Zenta. wordmark; replace any generated approximation during final design review.",
+        "human_review_required": true,
+        "generation_status": "not_generated"
+      }
+    },
+    {
+      "prompt_id": "google-visibility-found-when-it-matters-nl-01",
+      "content_type": "paid_ad_image",
+      "campaign": {
+        "objective": "lead generation",
+        "conversion": "Google Business Profile setup inquiry",
+        "service_id": "google-visibility",
+        "audience": "Lokale ondernemers in Suriname met een ontbrekend, onvolledig of onduidelijk bedrijfsprofiel",
+        "funnel_stage": "consideration",
+        "platforms": ["Meta"],
+        "placements": ["Facebook Feed", "Instagram Feed"],
+        "geography": "Suriname",
+        "language": "Dutch"
+      },
+      "creative_strategy": {
+        "concept_name": "Het beslissende zoekmoment",
+        "audience_insight": "Een klant zoekt vaak op locatie, openingstijd of dienst vlak voordat die belt, bezoekt of een bericht stuurt.",
+        "message_angle": "Maak essentiële bedrijfsinformatie duidelijk op het moment dat een klant zoekt.",
+        "framework": "Feature-Advantage-Benefit",
+        "hook": "Word gevonden wanneer het telt.",
+        "hypothesis": "Een herkenbaar lokaal zoekmoment zal de waarde van correcte bedrijfsinformatie sterker maken dan een abstracte uitleg over profieloptimalisatie."
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "spec_status": "needs_platform_preview",
+        "crop_guidance": "Keep the searcher, storefront, directional light path, headline, and brand mark within a centered crop-safe composition."
+      },
+      "visual_direction": {
+        "subject": "Een klant in Paramaribo die op een smartphone een lokaal bedrijf probeert te vinden",
+        "action": "Een abstracte lichtlijn verbindt de zoekactie op de telefoon met een echte professionele winkelpui",
+        "environment": "Een geloofwaardige, moderne straat met Surinaamse stedelijke details zonder herkenbare bedrijfsnamen",
+        "composition": "Portrait split-depth scene with the searching customer in the foreground right, the business entrance in the midground left, and uncluttered dark space above for copy",
+        "lighting": "Warm late-afternoon daylight balanced with a precise lime navigation glow",
+        "palette": ["#030507", "#F4F7FB", "#B9FF66", "#5EE7FF", "#FFB86B"],
+        "style": "Authentieke commerciële fotografie met subtiele ruimtelijke digitale signalen en een rustige, professionele uitstraling"
+      },
+      "copy": {
+        "overlay_headline": "Word gevonden wanneer het telt.",
+        "overlay_support": "Google Bedrijfsprofiel + Maps",
+        "cta": "Stel je profiel goed in",
+        "caption": "Klanten zoeken naar je locatie, openingstijden en contactgegevens voordat ze een keuze maken. Zenta helpt bedrijven in Suriname hun Google Bedrijfsprofiel en Maps-informatie duidelijk in te stellen of te verbeteren."
+      },
+      "generation_prompt": "Maak een hoogwaardige 4:5 advertentieafbeelding voor Zenta Creative. Toon een echte, hedendaagse klant in Paramaribo die op een smartphone naar een lokaal bedrijf zoekt. Laat een elegante abstracte limekleurige lichtlijn vanaf de telefoon naar een professionele winkel- of kantoorentree lopen, als visuele metafoor voor lokale vindbaarheid. Gebruik geen echte Google-interface, kaartpin, logo of nagebouwd zoekresultaat. Plaats de klant rechtsvoor, de bedrijfsentree links in het midden en laat bovenaan rustige donkere ruimte voor tekst. Gebruik een bijna zwarte basis #030507, wit, lime #B9FF66, cyan #5EE7FF en een subtiel warm daglichtaccent. Authentieke commerciële fotografie, realistische handen en telefoon, geloofwaardige Surinaamse stedelijke context zonder stereotypes. Plaats uitsluitend de exacte kop 'Word gevonden wanneer het telt.' en de steunregel 'Google Bedrijfsprofiel + Maps' in vet, helder schreefloos lettertype, plus een klein 'Zenta.' woordmerk. Geen andere tekst.",
+      "negative_constraints": [
+        "geen Google-logo, echte zoekinterface, kaartinterface of nagemaakte reviewscore",
+        "geen garantie op ranking, verkeer, bezoeken of omzet",
+        "geen cliché toeristische of culturele beeldtaal",
+        "geen willekeurige bedrijfsnamen of onleesbare tekst",
+        "geen vervormde handen, telefoon of gezichten"
+      ],
+      "accessibility": {
+        "alt_text": "Een klant zoekt op een smartphone naar een lokaal bedrijf terwijl een lichtlijn de telefoon met de bedrijfsentree verbindt.",
+        "contrast_note": "Plaats witte tekst op de rustige donkere bovenzone en controleer leesbaarheid op mobiel formaat."
+      },
+      "compliance": {
+        "claim_risk": "low",
+        "required_review": [
+          "Controleer dat er geen Google-logo, handelsuitstraling of fictieve beoordeling zichtbaar is.",
+          "Controleer de Nederlandse tekst op exacte spelling.",
+          "Bekijk alle geselecteerde plaatsingsvoorbeelden voor uitsnede en overlays."
+        ]
+      },
+      "production": {
+        "render_text_in_image": true,
+        "logo_instruction": "Gebruik alleen het goedgekeurde Zenta. woordmerk en vervang een gegenereerde benadering in de eindopmaak.",
+        "human_review_required": true,
+        "generation_status": "not_generated"
+      }
+    },
+    {
+      "prompt_id": "meta-audit-stop-guessing-en-01",
+      "content_type": "paid_ad_image",
+      "campaign": {
+        "objective": "lead generation",
+        "conversion": "Full Meta Ads Audit inquiry",
+        "service_id": "meta-ads-audit",
+        "audience": "Business owners and marketers already spending on Meta ads without a clear evidence-backed account diagnosis",
+        "funnel_stage": "conversion",
+        "platforms": ["Meta"],
+        "placements": ["Facebook Feed", "Instagram Feed"],
+        "geography": "Suriname",
+        "language": "English"
+      },
+      "creative_strategy": {
+        "concept_name": "From noise to diagnosis",
+        "audience_insight": "Advertisers often receive many conflicting recommendations but still cannot see which account issue deserves attention first.",
+        "message_angle": "Replace guesswork with a structured audit and prioritized 30-day action plan.",
+        "framework": "Problem-Agitation-Solution",
+        "hook": "Stop guessing what your ads need.",
+        "hypothesis": "A visual transformation from noisy signals to one clear diagnostic path will communicate audit value without promising performance."
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "spec_status": "needs_platform_preview",
+        "crop_guidance": "Keep the central diagnostic lens, headline, price, and brand cue inside the middle 70 percent of the composition."
+      },
+      "visual_direction": {
+        "subject": "A precise glass diagnostic lens hovering over abstract paid-media signals",
+        "action": "The lens organizes scattered campaign shapes into a clear prioritized pathway and checklist",
+        "environment": "Dark premium strategy workspace with no real client data or copied advertising dashboards",
+        "composition": "Central hero object with controlled visual noise on the left resolving into three crisp ordered actions on the right; clean upper-left headline area",
+        "lighting": "Sharp studio rim lighting with lime diagnostic glow, cyan detail, and restrained violet depth",
+        "palette": ["#030507", "#F4F7FB", "#B9FF66", "#5EE7FF", "#9B7CFF"],
+        "style": "Sophisticated editorial 3D still life, tactile glass and metal, high clarity, premium consulting aesthetic, minimal interface abstraction"
+      },
+      "copy": {
+        "overlay_headline": "Stop guessing what your ads need.",
+        "overlay_support": "Full Meta Ads Audit • $175",
+        "cta": "Audit your Meta Ads",
+        "caption": "Get an evidence-backed review of one Meta ad account, including measurement, attribution, creative, account structure, and a prioritized 30-day action plan. No Facebook password required."
+      },
+      "generation_prompt": "Create a premium 4:5 paid-ad image for Zenta Creative built around a single tactile glass diagnostic lens hovering above abstract paid-media signals. On the left, show controlled visual noise made of blurred charts, campaign tiles, and disconnected signal fragments; through and beyond the lens, those fragments become three crisp ordered actions and a clean path, without legible metrics or copied Meta interfaces. Use a near-black #030507 strategy-workspace background, bright white details, lime #B9FF66 diagnostic light, cyan #5EE7FF accents, and restrained violet depth. Sophisticated editorial 3D still life, realistic glass and metal, sharp studio rim lighting, premium expert-consulting mood. Reserve clean upper-left space and render only the exact headline 'Stop guessing what your ads need.' with the exact support line 'Full Meta Ads Audit • $175', plus a small 'Zenta.' wordmark. No other text, numbers, platform logos, or fake results. Keep the lens, price, and copy safely away from all edges.",
+      "negative_constraints": [
+        "no Meta, Facebook, or Instagram logos or copied Ads Manager interface",
+        "no fabricated ROAS, CPA, revenue, leads, or performance trend",
+        "no claim that the audit guarantees improvement",
+        "no cluttered illegible dashboard",
+        "no misspelled or additional text",
+        "no cartoon magnifying glass or generic detective imagery"
+      ],
+      "accessibility": {
+        "alt_text": "A glass diagnostic lens turns scattered advertising signals into a clear prioritized action path for a Meta Ads audit.",
+        "contrast_note": "Use bright headline text on the near-black background and keep the lime glow from reducing letter contrast."
+      },
+      "compliance": {
+        "claim_risk": "medium",
+        "required_review": [
+          "Verify the $175 price and audit scope against the live website.",
+          "Confirm the image contains no client data, fake results, or copied Meta interface elements.",
+          "Preview text and crop in each active placement before publication."
+        ]
+      },
+      "production": {
+        "render_text_in_image": true,
+        "logo_instruction": "Use the approved Zenta. wordmark and replace generated logo text if it is not exact.",
+        "human_review_required": true,
+        "generation_status": "not_generated"
+      }
+    },
+    {
+      "prompt_id": "ads-snapshot-seen-vs-understood-en-01",
+      "content_type": "paid_ad_image",
+      "campaign": {
+        "objective": "lead generation",
+        "conversion": "Public Ads Review purchase inquiry",
+        "service_id": "ads-snapshot",
+        "audience": "Small-business owners running or considering Meta ads who want expert feedback without granting account access",
+        "funnel_stage": "conversion",
+        "platforms": ["Meta"],
+        "placements": ["Facebook Feed", "Instagram Feed"],
+        "geography": "Suriname",
+        "language": "English"
+      },
+      "creative_strategy": {
+        "concept_name": "Seen is not understood",
+        "audience_insight": "An ad can attract a glance but still fail to communicate the offer, next step, or connection to the landing page.",
+        "message_angle": "A public expert review can identify clarity gaps without account access.",
+        "framework": "Feature-Advantage-Benefit",
+        "hook": "Is your ad clear in three seconds?",
+        "hypothesis": "A three-panel clarity sequence will make the public review deliverables concrete while keeping the entry offer low-friction."
+      },
+      "format": {
+        "aspect_ratio": "4:5",
+        "orientation": "portrait",
+        "spec_status": "needs_platform_preview",
+        "crop_guidance": "Keep all three visual panels, the $49 offer, and headline within a centered stacked layout with comfortable margins."
+      },
+      "visual_direction": {
+        "subject": "Three abstract ad-message panels representing attention, offer clarity, and next action",
+        "action": "A lime focus beam scans across the panels and reveals where the message becomes clear",
+        "environment": "Minimal black editorial studio with tactile paper and glass layers rather than a real social feed",
+        "composition": "Three vertically staggered panels in the center-right, strong headline area upper-left, compact price badge lower-left, balanced negative space",
+        "lighting": "Controlled high-contrast product lighting with a narrow lime scan and subtle cyan edge light",
+        "palette": ["#030507", "#F4F7FB", "#B9FF66", "#5EE7FF", "#FF4ECD"],
+        "style": "Bold editorial graphic still life with physical depth, precise hierarchy, and a modern creative-audit aesthetic"
+      },
+      "copy": {
+        "overlay_headline": "Is your ad clear in three seconds?",
+        "overlay_support": "$49 Public Ads Review",
+        "cta": "Request your snapshot",
+        "caption": "Get expert feedback on your public Facebook and Instagram presence, visible ads, offer, CTA, creative, and landing-page consistency. No ad-account access is needed for this review."
+      },
+      "generation_prompt": "Design a high-end 4:5 advertising image for Zenta Creative using three vertically staggered tactile panels that symbolize attention, offer clarity, and next action. A narrow lime focus beam scans across the panels, transforming the first from visually noisy, the second into a clear offer shape, and the third into one obvious action cue. Do not show a real social feed, client creative, platform logo, fake metric, or readable interface. Set the scene in a minimal near-black editorial studio with layered matte paper, smoked glass, clean white surfaces, lime #B9FF66, cyan #5EE7FF, and a tiny pink accent. Use controlled product lighting, physical depth, and strong negative space. Render only the exact headline 'Is your ad clear in three seconds?' with the exact support line '$49 Public Ads Review', one small lime CTA label 'Request your snapshot', and a small 'Zenta.' wordmark. No other text. Keep all panels and copy centered and safely inset for feed cropping.",
+      "negative_constraints": [
+        "no copied Facebook or Instagram feed, logo, interface, or notification icons",
+        "no fake client advertisement, result, testimonial, or before-and-after metric",
+        "no guaranteed outcome or urgency claim",
+        "no clutter, tiny copy, or extra labels",
+        "no misspelled price, headline, CTA, or wordmark"
+      ],
+      "accessibility": {
+        "alt_text": "Three abstract advertising panels are scanned for attention, offer clarity, and a clear next action in a public ads review concept.",
+        "contrast_note": "Keep all white and lime copy on solid near-black areas and test the price and CTA at mobile size."
+      },
+      "compliance": {
+        "claim_risk": "medium",
+        "required_review": [
+          "Verify the $49 price and deliverables on the live Zenta website.",
+          "Confirm there are no copied platform elements or implied performance results.",
+          "Check that the three-second question is presented as a creative hook, not a platform rule."
+        ]
+      },
+      "production": {
+        "render_text_in_image": true,
+        "logo_instruction": "Use only the approved Zenta. wordmark; correct all generated typography in final production.",
+        "human_review_required": true,
+        "generation_status": "not_generated"
+      }
+    },
+    {
+      "prompt_id": "visibility-journey-search-to-whatsapp-nl-01",
+      "content_type": "organic_image_post",
+      "campaign": {
+        "objective": "brand education",
+        "conversion": "profile visit or saved post",
+        "service_id": "website-growth",
+        "audience": "Ondernemers in Suriname die losse online kanalen gebruiken maar nog geen duidelijke klantreis hebben",
+        "funnel_stage": "awareness",
+        "platforms": ["Instagram", "Facebook"],
+        "placements": ["Organic Feed"],
+        "geography": "Suriname",
+        "language": "Dutch"
+      },
+      "creative_strategy": {
+        "concept_name": "Van zoeken naar gesprek",
+        "audience_insight": "Losse online kanalen voelen pas waardevol wanneer een ondernemer ziet hoe ze samen één eenvoudige route voor de klant vormen.",
+        "message_angle": "Google, Maps, website en WhatsApp horen als één klantreis te werken.",
+        "framework": "Feature-Advantage-Benefit",
+        "hook": "Zichtbaarheid is een route, geen losse post.",
+        "hypothesis": "Een tastbare doorlopende route zal de Zenta-aanpak begrijpelijker en beter deelbaar maken dan een lijst met diensten."
+      },
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "spec_status": "organic_only",
+        "crop_guidance": "Keep the complete four-stage route centered with clear separation and enough border space for a later headline overlay."
+      },
+      "visual_direction": {
+        "subject": "Een doorlopende driedimensionale route met vier herkenbare maar merkneutrale momenten",
+        "action": "De route beweegt van zoeken naar locatie, website en uiteindelijk een gesprek",
+        "environment": "Donkere grafische studio met vier kleine realistische bedrijfsmomenten als verbonden eilanden",
+        "composition": "Square isometric path flowing clockwise through four distinct stations with a clear central focal point and open top margin",
+        "lighting": "Crisp studio lighting with a lime route line, cyan navigation cues, violet web depth, and a warm final contact glow",
+        "palette": ["#030507", "#F4F7FB", "#B9FF66", "#5EE7FF", "#9B7CFF", "#FFB86B"],
+        "style": "Verfijnde isometrische editorial 3D-illustratie met tastbare materialen, heldere hiërarchie en minimale interface-symboliek"
+      },
+      "copy": {
+        "overlay_headline": "Van zoeken naar gesprek.",
+        "overlay_support": "Google → Maps → Website → WhatsApp",
+        "cta": "Bewaar deze klantreis",
+        "caption": "Online zichtbaarheid werkt sterker als elk kanaal de klant logisch naar de volgende stap leidt. Zenta verbindt Google, Maps, je website en WhatsApp tot één duidelijke route van ontdekking naar contact."
+      },
+      "generation_prompt": "Maak een vierkante 1:1 organische social-postillustratie voor Zenta Creative. Bouw een doorlopende isometrische route door vier visuele stations: een abstract zoekmoment, een merkneutraal locatiepunt, een strakke website-etalage en een warm contactgesprek. Gebruik geen platformlogo's, echte interfaces of tekstlabels in de beeldgeneratie. Laat een dunne limekleurige lijn de vier stations met elkaar verbinden in een heldere route die met de klok mee loopt. Plaats alles in een donkere grafische studio met een bijna zwarte basis #030507, wit, lime #B9FF66, cyan #5EE7FF, violet #9B7CFF en een warm oranje eindaccent. Verfijnde editorial 3D-illustratie, tastbare materialen, realistische zachte schaduwen, moderne zakelijke uitstraling, duidelijk en niet kinderlijk. Houd bovenaan open ruimte voor een later toe te voegen kop en behoud royale marges. Voeg geen tekst, letters, cijfers, logo's of merknamen toe.",
+      "negative_constraints": [
+        "geen platformlogo's, merknamen, interfacekopieën of kaartschermen",
+        "geen tekst, letters, cijfers of vervormde symbolen in de gegenereerde afbeelding",
+        "geen garantie op leads, klanten of omzet",
+        "geen drukke infographic met kleine details",
+        "geen speelse cartoonstijl"
+      ],
+      "accessibility": {
+        "alt_text": "Een isometrische route verbindt vier stappen van online zichtbaarheid: zoeken, locatie, website en contact.",
+        "contrast_note": "Voeg de kop later toe in wit op de donkere open bovenruimte en houd de route ook zonder kleur begrijpelijk."
+      },
+      "compliance": {
+        "claim_risk": "low",
+        "required_review": [
+          "Controleer dat alle platformverwijzingen abstract en merkneutraal blijven.",
+          "Voeg de exacte Nederlandse kop en alt-tekst toe tijdens publicatie.",
+          "Beoordeel de route op duidelijkheid op klein mobiel formaat."
+        ]
+      },
+      "production": {
+        "render_text_in_image": false,
+        "logo_instruction": "Add the approved Zenta. wordmark and exact Dutch copy in the final layout, not during image generation.",
+        "human_review_required": true,
+        "generation_status": "not_generated"
+      }
+    },
+    {
+      "prompt_id": "review-system-trust-made-easy-en-01",
+      "content_type": "organic_image_post",
+      "campaign": {
+        "objective": "brand education",
+        "conversion": "review-system inquiry or saved post",
+        "service_id": "review-system",
+        "audience": "Local service businesses in Suriname that want a simpler, more consistent way to invite genuine customer reviews",
+        "funnel_stage": "consideration",
+        "platforms": ["Instagram", "Facebook"],
+        "placements": ["Organic Feed"],
+        "geography": "Suriname",
+        "language": "English"
+      },
+      "creative_strategy": {
+        "concept_name": "Make trust easy to share",
+        "audience_insight": "Satisfied customers may be willing to leave a genuine review but often need a clear, convenient invitation.",
+        "message_angle": "A review link, QR prompt, and follow-up message reduce friction without manufacturing feedback.",
+        "framework": "Feature-Advantage-Benefit",
+        "hook": "Good service deserves an easy follow-up.",
+        "hypothesis": "Showing a simple handoff from service moment to review invitation will communicate the workflow while protecting authenticity."
+      },
+      "format": {
+        "aspect_ratio": "1:1",
+        "orientation": "square",
+        "spec_status": "organic_only",
+        "crop_guidance": "Center the human service handoff and QR card; preserve an uncluttered upper-left area for final typography."
+      },
+      "visual_direction": {
+        "subject": "A friendly local business owner handing a small elegant review card to a satisfied customer",
+        "action": "The customer scans a clean abstract QR code area while the owner completes a natural service interaction",
+        "environment": "Bright contemporary Suriname service-business interior with no identifiable private brand",
+        "composition": "Close editorial crop on hands, card, and warm human interaction; QR card at the central focal point; open upper-left copy space",
+        "lighting": "Soft natural window light with subtle lime edge accents and warm realistic skin tones",
+        "palette": ["#030507", "#F4F7FB", "#B9FF66", "#5EE7FF", "#FFB86B"],
+        "style": "Authentic premium lifestyle photography, candid rather than posed, tactile details, modern and trustworthy"
+      },
+      "copy": {
+        "overlay_headline": "Make trust easy to share.",
+        "overlay_support": "Review link • QR prompt • Follow-up copy",
+        "cta": "Build your review flow",
+        "caption": "A satisfied customer should not have to search for where to leave feedback. Zenta creates a clear review link, QR prompt, and WhatsApp follow-up copy so businesses can invite genuine reviews consistently."
+      },
+      "generation_prompt": "Create a square 1:1 organic social image for Zenta Creative showing a warm, authentic service moment inside a contemporary Suriname small business. A friendly owner hands an elegant minimal review card to a satisfied customer, and the customer naturally scans a clearly framed but nonfunctional abstract QR placeholder. Focus on the hands, card, and genuine human interaction without showing a testimonial, star rating, platform interface, or identifiable private business. Use soft window light, realistic skin tones, near-black #030507 design accents, white, lime #B9FF66, subtle cyan #5EE7FF, and a restrained warm accent. Premium candid lifestyle photography, tactile paper, crisp focus, natural expressions, modern trustworthy mood. Leave uncluttered upper-left negative space for later typography. Do not render any words, letters, ratings, platform logos, or readable QR content in the image.",
+      "negative_constraints": [
+        "no fabricated testimonial, review text, customer quote, name, or star rating",
+        "no Google, Facebook, WhatsApp, or other platform logo or interface",
+        "no functional QR code or private customer information",
+        "no staged handshake or exaggerated celebration",
+        "no text, letters, or numbers in the generated base image",
+        "no distorted fingers, phones, cards, or faces"
+      ],
+      "accessibility": {
+        "alt_text": "A local business owner hands a review invitation card to a customer, who scans its QR prompt after a service interaction.",
+        "contrast_note": "Add the final white headline on the dark upper-left area and ensure the concept remains understandable without reading the QR card."
+      },
+      "compliance": {
+        "claim_risk": "low",
+        "required_review": [
+          "Confirm the image does not imply the pictured people are real Zenta clients unless releases and approval exist.",
+          "Replace the abstract QR placeholder with the approved review link only in final production.",
+          "Do not pair the post with incentives or language that pressures customers toward positive reviews."
+        ]
+      },
+      "production": {
+        "render_text_in_image": false,
+        "logo_instruction": "Add the approved Zenta. wordmark and exact overlay copy during final layout after the base image is approved.",
+        "human_review_required": true,
+        "generation_status": "not_generated"
+      }
+    }
+  ]
+}
