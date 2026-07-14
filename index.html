@@ -1538,6 +1538,18 @@
         });
     }
 
+    document.querySelectorAll(".faq-grid").forEach((grid) => {
+      const questions = Array.from(grid.children);
+      const columns = [document.createElement("div"), document.createElement("div")];
+
+      columns.forEach((column) => column.classList.add("faq-column"));
+      questions.forEach((question, index) => {
+        question.style.setProperty("--faq-order", index + 1);
+        columns[index % 2].appendChild(question);
+      });
+      grid.append(...columns);
+    });
+
     document.querySelectorAll(".faq button").forEach((button) => {
       button.addEventListener("click", () => {
         button.parentElement.classList.toggle("open");
