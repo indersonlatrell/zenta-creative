@@ -1240,6 +1240,10 @@ h2{
   gap:18px;
 }
 
+.ads-audit-section{
+  background:rgba(255,255,255,.025);
+}
+
 .ads-audit-intro{
   display:flex;
   flex-direction:column;
@@ -1330,6 +1334,106 @@ h2{
   max-width:780px;
   margin-top:20px;
   font-size:13px;
+}
+
+.audit-pricing-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  margin:80px 0 24px;
+}
+
+.audit-pricing-head .kicker{
+  margin-bottom:8px;
+}
+
+.audit-pricing-head h3{
+  max-width:720px;
+  font-size:42px;
+  line-height:1;
+  letter-spacing:-.055em;
+}
+
+.audit-pricing-head > span{
+  padding:9px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:var(--muted);
+  background:rgba(255,255,255,.04);
+  font-size:12px;
+  font-weight:800;
+  white-space:nowrap;
+}
+
+.audit-pricing{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+}
+
+.audit-tier{
+  display:flex;
+  flex-direction:column;
+  min-height:620px;
+  padding:28px;
+  border:1px solid var(--line);
+  border-radius:28px;
+  background:rgba(255,255,255,.045);
+}
+
+.audit-tier.featured{
+  border-color:rgba(185,255,102,.48);
+  background:
+    linear-gradient(rgba(185,255,102,.07),rgba(185,255,102,.02)),
+    rgba(255,255,255,.045);
+  box-shadow:0 26px 80px rgba(185,255,102,.08);
+}
+
+.audit-tier h3{
+  margin-top:18px;
+  font-size:34px;
+  line-height:1;
+  letter-spacing:-.05em;
+}
+
+.audit-price{
+  margin:20px 0 14px;
+  color:var(--lime);
+  font-size:58px;
+  font-weight:900;
+  line-height:1;
+}
+
+.audit-tier > p{
+  min-height:72px;
+  color:var(--muted);
+}
+
+.audit-tier ul{
+  display:grid;
+  gap:12px;
+  margin:28px 0;
+  color:var(--muted);
+  list-style:none;
+}
+
+.audit-tier li{
+  position:relative;
+  padding-left:22px;
+}
+
+.audit-tier li::before{
+  content:"✓";
+  position:absolute;
+  left:0;
+  color:var(--lime);
+  font-weight:900;
+}
+
+.audit-tier .btn{
+  width:100%;
+  margin-top:auto;
 }
 
 .fail-grid{
@@ -1767,6 +1871,7 @@ footer{
   .growth-showcase,
   .google-wrap,
   .ads-audit-layout,
+  .audit-pricing,
   .track,
   .pricing,
   .faq-grid,
@@ -1807,6 +1912,14 @@ footer{
 
   .audit-points{
     grid-template-columns:1fr 1fr;
+  }
+
+  .audit-tier{
+    min-height:auto;
+  }
+
+  .audit-tier > p{
+    min-height:auto;
   }
 
   .premium-card .monthly{
@@ -1955,6 +2068,16 @@ footer{
 
   .ads-audit-intro h3{
     font-size:38px;
+  }
+
+  .audit-pricing-head{
+    align-items:flex-start;
+    flex-direction:column;
+    margin-top:64px;
+  }
+
+  .audit-pricing-head h3{
+    font-size:36px;
   }
 
   .audit-points{
