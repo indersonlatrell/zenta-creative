@@ -7,6 +7,7 @@
 ## Canonical website
 
 - https://zentacreative.com/
+- Dutch version: https://zentacreative.com/nl/
 
 ## Services
 
@@ -17,4 +18,5 @@
 
 ## Contact
 
+- Email: mailto:info@zentacreative.com
 - WhatsApp: https://wa.me/5978626245
