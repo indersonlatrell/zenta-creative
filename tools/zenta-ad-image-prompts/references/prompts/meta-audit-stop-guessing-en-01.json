@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "meta-audit-stop-guessing-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Full Meta Ads Audit inquiry",
+    "service_id": "meta-ads-audit",
+    "audience": "Business owners and marketers already spending on Meta ads without a clear evidence-backed account diagnosis",
+    "funnel_stage": "conversion",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "From noise to diagnosis",
+    "audience_insight": "Advertisers often receive many conflicting recommendations but still cannot see which account issue deserves attention first.",
+    "message_angle": "Replace guesswork with a structured audit and prioritized 30-day action plan.",
+    "framework": "Problem-Agitation-Solution",
+    "hook": "Stop guessing what your ads need.",
+    "hypothesis": "A visual transformation from noisy signals to one clear diagnostic path will communicate audit value without promising performance."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the central diagnostic lens, headline, price, and brand cue inside the middle 70 percent of the composition."
+  },
+  "visual_direction": {
+    "subject": "A precise glass diagnostic lens hovering over abstract paid-media signals",
+    "action": "The lens organizes scattered campaign shapes into a clear prioritized pathway and checklist",
+    "environment": "Dark premium strategy workspace with no real client data or copied advertising dashboards",
+    "composition": "Central hero object with controlled visual noise on the left resolving into three crisp ordered actions on the right; clean upper-left headline area",
+    "lighting": "Sharp studio rim lighting with lime diagnostic glow, cyan detail, and restrained violet depth",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "Sophisticated editorial 3D still life, tactile glass and metal, high clarity, premium consulting aesthetic, minimal interface abstraction"
+  },
+  "copy": {
+    "overlay_headline": "Stop guessing what your ads need.",
+    "overlay_support": "Full Meta Ads Audit • $175",
+    "cta": "Audit your Meta Ads",
+    "caption": "Get an evidence-backed review of one Meta ad account, including measurement, attribution, creative, account structure, and a prioritized 30-day action plan. No Facebook password required."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is A precise glass diagnostic lens hovering over abstract paid-media signals. Show The lens organizes scattered campaign shapes into a clear prioritized pathway and checklist. Set the scene in Dark premium strategy workspace with no real client data or copied advertising dashboards. Composition: Central hero object with controlled visual noise on the left resolving into three crisp ordered actions on the right; clean upper-left headline area. Lighting: Sharp studio rim lighting with lime diagnostic glow, cyan detail, and restrained violet depth. Visual style: Sophisticated editorial 3D still life, tactile glass and metal, high clarity, premium consulting aesthetic, minimal interface abstraction. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Replace guesswork with a structured audit and prioritized 30-day action plan.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Stop guessing what your ads need.', support line 'Full Meta Ads Audit • $175', and CTA 'Audit your Meta Ads' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid no cartoon magnifying glass or generic detective imagery, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "no cartoon magnifying glass or generic detective imagery"
+  ],
+  "accessibility": {
+    "alt_text": "A glass diagnostic lens turns scattered advertising signals into a clear prioritized action path for a Meta Ads audit.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $175 price and full-audit scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

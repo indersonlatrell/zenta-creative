@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "cross-platform-measurement-compass-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "cross-platform audit inquiry",
+    "service_id": "multi-platform-audit",
+    "audience": "businesses investing across Meta and Google Ads that need one coherent diagnostic view",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The measurement compass",
+    "audience_insight": "Teams can optimize toward whichever platform metric is easiest to see instead of the outcome the business actually values.",
+    "message_angle": "A shared conversion definition gives cross-platform analysis direction.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Choose the business outcome before reading the map.",
+    "hypothesis": "A compass anchored to one approved outcome will communicate measurement alignment without suggesting perfect attribution."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a precision compass surrounded by two abstract channel maps and one central business-outcome marker",
+    "action": "the compass aligns to the outcome marker while the channel maps remain visibly different",
+    "environment": "a dark cartography table with tactile paper, glass, and no geographic labels",
+    "composition": "compass centered low, maps fan left and right, outcome marker upper-right, headline upper-left",
+    "lighting": "lime compass needle, cyan and violet map edges, controlled warm outcome glow",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "premium cartographic editorial still life with analytical calm"
+  },
+  "copy": {
+    "overlay_headline": "Choose the business outcome before reading the map.",
+    "overlay_support": "$325 Meta + Google Ads Audit",
+    "cta": "Align your measurement",
+    "caption": "Cross-platform reporting becomes more useful when the primary conversion and business outcome are defined consistently before the numbers are compared."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a precision compass surrounded by two abstract channel maps and one central business-outcome marker. Show the compass aligns to the outcome marker while the channel maps remain visibly different. Set the scene in a dark cartography table with tactile paper, glass, and no geographic labels. Composition: compass centered low, maps fan left and right, outcome marker upper-right, headline upper-left. Lighting: lime compass needle, cyan and violet map edges, controlled warm outcome glow. Visual style: premium cartographic editorial still life with analytical calm. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'A shared conversion definition gives cross-platform analysis direction.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Choose the business outcome before reading the map.', support line '$325 Meta + Google Ads Audit', and CTA 'Align your measurement' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid world maps, geographic targeting claims, platform logos, perfect-attribution promises or navigation-app visuals, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "world maps, geographic targeting claims, platform logos, perfect-attribution promises or navigation-app visuals"
+  ],
+  "accessibility": {
+    "alt_text": "A compass aligns two different channel maps toward one business-outcome marker.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $325 price and cross-platform scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

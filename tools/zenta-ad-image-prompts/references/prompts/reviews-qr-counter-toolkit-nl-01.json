@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "reviews-qr-counter-toolkit-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "organic_image_post",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "brand education",
+    "conversion": "review-system inquiry",
+    "service_id": "review-system",
+    "audience": "local service businesses in Suriname that want a consistent way to invite genuine reviews",
+    "funnel_stage": "awareness",
+    "platforms": [
+      "Instagram",
+      "Facebook"
+    ],
+    "placements": [
+      "Organic Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "De reviewtoolkit",
+    "audience_insight": "Een reviewproces voelt haalbaar wanneer ondernemers de concrete middelen naast elkaar zien.",
+    "message_angle": "Link, QR-prompt en opvolgtekst vormen samen een eenvoudige toolkit.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Een reviewflow heeft drie eenvoudige onderdelen.",
+    "hypothesis": "Een heldere flat-lay van drie middelen zal educatieve opslag en delen stimuleren zonder reviews te fabriceren."
+  },
+  "format": {
+    "aspect_ratio": "1:1",
+    "orientation": "square",
+    "spec_status": "organic_only",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "een smartphone, een blanco QR-kaart en een kleine opvolgnotitie als samenhangende set",
+    "action": "de drie middelen liggen logisch geordend rond één centraal lime verbindingspunt",
+    "environment": "een donkere vierkante balie-opstelling met tactiele papier- en schermmaterialen",
+    "composition": "driehoekige flat-lay, open bovenrand, duidelijk onderscheid tussen de drie onderdelen",
+    "lighting": "zacht bovenlicht met lime middelpunt, cyan schermrand en warme papieren toon",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "premium product-flat-lay, rustig en functioneel, niet technisch"
+  },
+  "copy": {
+    "overlay_headline": "Een reviewflow heeft drie eenvoudige onderdelen.",
+    "overlay_support": "Review link + QR prompt + follow-up copy",
+    "cta": "Bewaar de toolkit",
+    "caption": "Een reviewflow kan eenvoudig blijven: één link, één QR-prompt en één duidelijke opvolgtekst. Zenta helpt deze onderdelen samen te bouwen."
+  },
+  "image_prompt": "Create a polished 1:1 base image concept for a Zenta Creative organic image post. The central subject is een smartphone, een blanco QR-kaart en een kleine opvolgnotitie als samenhangende set. Show de drie middelen liggen logisch geordend rond één centraal lime verbindingspunt. Set the scene in een donkere vierkante balie-opstelling met tactiele papier- en schermmaterialen. Composition: driehoekige flat-lay, open bovenrand, duidelijk onderscheid tussen de drie onderdelen. Lighting: zacht bovenlicht met lime middelpunt, cyan schermrand en warme papieren toon. Visual style: premium product-flat-lay, rustig en functioneel, niet technisch. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Link, QR-prompt en opvolgtekst vormen samen een eenvoudige toolkit.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Een reviewflow heeft drie eenvoudige onderdelen.', support line 'Review link + QR prompt + follow-up copy', and CTA 'Bewaar de toolkit' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid functionele QR-code, reviewtekst, sterren, platformlogo's of kleine labels, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "functionele QR-code, reviewtekst, sterren, platformlogo's of kleine labels"
+  ],
+  "accessibility": {
+    "alt_text": "Een smartphone, blanco QR-kaart en opvolgnotitie vormen samen een reviewtoolkit.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Do not fabricate reviews, ratings, testimonials, customer identities, or incentives.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

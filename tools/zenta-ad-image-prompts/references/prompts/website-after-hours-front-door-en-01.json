@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "website-after-hours-front-door-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "qualified WhatsApp project inquiry",
+    "service_id": "website-growth",
+    "audience": "owners of small and growing businesses in Suriname who need a clearer online presence",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The after-hours front door",
+    "audience_insight": "Prospects often research a business outside opening hours and need a credible place to understand it without waiting for a reply.",
+    "message_angle": "A website acts as a calm, always-available front door rather than a promise of instant sales.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Your business should stay clear after closing time.",
+    "hypothesis": "A cinematic after-hours storefront metaphor will make website availability tangible to owners who rely mainly on social messages."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a closed local storefront whose physical lights are off while a refined digital doorway remains clearly illuminated",
+    "action": "the digital doorway quietly reveals services, trust cues, and a simple contact path through abstract panels",
+    "environment": "a believable Paramaribo commercial street just after dusk with no visible private branding",
+    "composition": "wide negative space upper-left, storefront centered low, luminous digital doorway on the right third",
+    "lighting": "natural blue-hour ambience with restrained lime doorway light and warm interior remnants",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "cinematic architectural editorial photography with subtle digital realism"
+  },
+  "copy": {
+    "overlay_headline": "Your business should stay clear after closing time.",
+    "overlay_support": "Websites + Google visibility",
+    "cta": "Plan your website",
+    "caption": "Customers may look for you after the doors close. A clear website gives them one place to understand your services and know what to do next."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a closed local storefront whose physical lights are off while a refined digital doorway remains clearly illuminated. Show the digital doorway quietly reveals services, trust cues, and a simple contact path through abstract panels. Set the scene in a believable Paramaribo commercial street just after dusk with no visible private branding. Composition: wide negative space upper-left, storefront centered low, luminous digital doorway on the right third. Lighting: natural blue-hour ambience with restrained lime doorway light and warm interior remnants. Visual style: cinematic architectural editorial photography with subtle digital realism. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'A website acts as a calm, always-available front door rather than a promise of instant sales.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Your business should stay clear after closing time.', support line 'Websites + Google visibility', and CTA 'Plan your website' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid e-commerce sales counters, open-24-hours claims, or sci-fi portal effects, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "e-commerce sales counters, open-24-hours claims, or sci-fi portal effects"
+  ],
+  "accessibility": {
+    "alt_text": "A closed storefront at dusk has one illuminated digital doorway representing an always-available website.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Verify the website package and any stated price against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "ads-snapshot-seen-vs-understood-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Public Ads Review purchase inquiry",
+    "service_id": "ads-snapshot",
+    "audience": "Small-business owners running or considering Meta ads who want expert feedback without granting account access",
+    "funnel_stage": "conversion",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "Seen is not understood",
+    "audience_insight": "An ad can attract a glance but still fail to communicate the offer, next step, or connection to the landing page.",
+    "message_angle": "A public expert review can identify clarity gaps without account access.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Is your ad clear in three seconds?",
+    "hypothesis": "A three-panel clarity sequence will make the public review deliverables concrete while keeping the entry offer low-friction."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep all three visual panels, the $49 offer, and headline within a centered stacked layout with comfortable margins."
+  },
+  "visual_direction": {
+    "subject": "Three abstract ad-message panels representing attention, offer clarity, and next action",
+    "action": "A lime focus beam scans across the panels and reveals where the message becomes clear",
+    "environment": "Minimal black editorial studio with tactile paper and glass layers rather than a real social feed",
+    "composition": "Three vertically staggered panels in the center-right, strong headline area upper-left, compact price badge lower-left, balanced negative space",
+    "lighting": "Controlled high-contrast product lighting with a narrow lime scan and subtle cyan edge light",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#FF4ECD"
+    ],
+    "style": "Bold editorial graphic still life with physical depth, precise hierarchy, and a modern creative-audit aesthetic"
+  },
+  "copy": {
+    "overlay_headline": "Is your ad clear in three seconds?",
+    "overlay_support": "$49 Public Ads Review",
+    "cta": "Request your snapshot",
+    "caption": "Get expert feedback on your public Facebook and Instagram presence, visible ads, offer, CTA, creative, and landing-page consistency. No ad-account access is needed for this review."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is Three abstract ad-message panels representing attention, offer clarity, and next action. Show A lime focus beam scans across the panels and reveals where the message becomes clear. Set the scene in Minimal black editorial studio with tactile paper and glass layers rather than a real social feed. Composition: Three vertically staggered panels in the center-right, strong headline area upper-left, compact price badge lower-left, balanced negative space. Lighting: Controlled high-contrast product lighting with a narrow lime scan and subtle cyan edge light. Visual style: Bold editorial graphic still life with physical depth, precise hierarchy, and a modern creative-audit aesthetic. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #FF4ECD; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'A public expert review can identify clarity gaps without account access.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Is your ad clear in three seconds?', support line '$49 Public Ads Review', and CTA 'Request your snapshot' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid no misspelled price, headline, CTA, or wordmark, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "no misspelled price, headline, CTA, or wordmark"
+  ],
+  "accessibility": {
+    "alt_text": "Three abstract advertising panels are scanned for attention, offer clarity, and a clear next action in a public ads review concept.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $49 price and public-review scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

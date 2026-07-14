@@ -6,10 +6,16 @@
     "id": "1RkdJQfCWBM3c4GFHoWUsNdPP40wdGSQ9",
     "url": "https://drive.google.com/drive/folders/1RkdJQfCWBM3c4GFHoWUsNdPP40wdGSQ9"
   },
-  "initial_library": {
-    "name": "2026-07-14__zenta-visibility-starter-library__v01.json",
-    "id": "19krxHLQSOnmHf0u24_cdDqx6--xHCsjA",
-    "url": "https://drive.google.com/file/d/19krxHLQSOnmHf0u24_cdDqx6--xHCsjA/view?usp=drivesdk"
+  "individual_prompts_folder": {
+    "name": "Individual Prompts",
+    "id": "1g903VNF4omR-oK3ZE1BlP_vmqkTkck-H",
+    "url": "https://drive.google.com/drive/folders/1g903VNF4omR-oK3ZE1BlP_vmqkTkck-H",
+    "prompt_count": 36
   },
-  "verified_at": "2026-07-14T06:09:37-03:00"
+  "archive_folder": {
+    "name": "Archive",
+    "id": "1B29IXyFpLIxI7wVqFejCCJSkMSGVE7z6",
+    "url": "https://drive.google.com/drive/folders/1B29IXyFpLIxI7wVqFejCCJSkMSGVE7z6"
+  },
+  "verified_at": "2026-07-14T07:20:00-03:00"
 }

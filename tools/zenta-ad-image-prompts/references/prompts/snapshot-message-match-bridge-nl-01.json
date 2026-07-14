@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "snapshot-message-match-bridge-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Public Ads Review inquiry",
+    "service_id": "ads-snapshot",
+    "audience": "small-business advertisers who want expert feedback without granting ad-account access",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "Van advertentie naar pagina",
+    "audience_insight": "Twijfel ontstaat wanneer de advertentie een ander verhaal vertelt dan de pagina na de klik.",
+    "message_angle": "Message match wordt zichtbaar als een brug tussen twee consistente ervaringen.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Belooft je advertentie wat de pagina laat zien?",
+    "hypothesis": "Twee visuele werelden met een wel of niet passende brug maken landingspagina-consistentie begrijpelijk."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "twee abstracte merkwerelden die advertentie en landingspagina vertegenwoordigen",
+    "action": "vorm, kleur en aanbodobject lijnen uit zodat één stabiele brug ontstaat",
+    "environment": "een donkere conceptstudio met twee verhoogde platforms",
+    "composition": "platforms links en rechts, brug centraal, open bovenruimte voor koptekst",
+    "lighting": "contrasterend licht dat naar het midden toe één coherent lime-cyan systeem wordt",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "tactiele editorial 3D met duidelijke vergelijking en premium materiaalgebruik"
+  },
+  "copy": {
+    "overlay_headline": "Belooft je advertentie wat de pagina laat zien?",
+    "overlay_support": "$49 Public Ads Review",
+    "cta": "Controleer de aansluiting",
+    "caption": "Na de klik moet de klant hetzelfde aanbod en dezelfde richting herkennen. De Public Ads Review kijkt ook naar de aansluiting tussen advertentie en landingspagina."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is twee abstracte merkwerelden die advertentie en landingspagina vertegenwoordigen. Show vorm, kleur en aanbodobject lijnen uit zodat één stabiele brug ontstaat. Set the scene in een donkere conceptstudio met twee verhoogde platforms. Composition: platforms links en rechts, brug centraal, open bovenruimte voor koptekst. Lighting: contrasterend licht dat naar het midden toe één coherent lime-cyan systeem wordt. Visual style: tactiele editorial 3D met duidelijke vergelijking en premium materiaalgebruik. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Message match wordt zichtbaar als een brug tussen twee consistente ervaringen.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Belooft je advertentie wat de pagina laat zien?', support line '$49 Public Ads Review', and CTA 'Controleer de aansluiting' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid websiteschermen, gebroken bruggen met gevaar, bounce-rate cijfers of platformlogo's, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "websiteschermen, gebroken bruggen met gevaar, bounce-rate cijfers of platformlogo's"
+  ],
+  "accessibility": {
+    "alt_text": "Twee abstracte merkplatforms lijnen uit en vormen een stabiele brug.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Verify the $49 price and public-review scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

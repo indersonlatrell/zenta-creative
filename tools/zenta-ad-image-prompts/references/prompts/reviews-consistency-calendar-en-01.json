@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "reviews-consistency-calendar-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "review-system inquiry",
+    "service_id": "review-system",
+    "audience": "local service businesses in Suriname that want a consistent way to invite genuine reviews",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "Consistency over improvisation",
+    "audience_insight": "Irregular review requests often result from relying on memory rather than a simple routine.",
+    "message_angle": "A repeatable operational rhythm makes review invitations more consistent.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "A repeatable follow-up beats remembering later.",
+    "hypothesis": "A visual cadence of completed service moments and blank follow-up cards will communicate process without promising volume."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a tactile weekly rhythm board with repeated service tokens paired with blank follow-up cards",
+    "action": "each completed service token clicks into a matching follow-up slot",
+    "environment": "a clean dark operations desk rather than a software calendar",
+    "composition": "horizontal cadence across center, top-left copy space, one incomplete slot as the tension point",
+    "lighting": "controlled studio light with lime completion marks and neutral shadows",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "premium operational still life with satisfying modular motion cues"
+  },
+  "copy": {
+    "overlay_headline": "A repeatable follow-up beats remembering later.",
+    "overlay_support": "Review link + QR prompt + follow-up copy",
+    "cta": "Set up the system",
+    "caption": "Consistent review invitations are easier when they belong to a simple routine. Zenta provides the assets and copy for a repeatable flow."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a tactile weekly rhythm board with repeated service tokens paired with blank follow-up cards. Show each completed service token clicks into a matching follow-up slot. Set the scene in a clean dark operations desk rather than a software calendar. Composition: horizontal cadence across center, top-left copy space, one incomplete slot as the tension point. Lighting: controlled studio light with lime completion marks and neutral shadows. Visual style: premium operational still life with satisfying modular motion cues. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'A repeatable operational rhythm makes review invitations more consistent.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'A repeatable follow-up beats remembering later.', support line 'Review link + QR prompt + follow-up copy', and CTA 'Set up the system' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid calendar text, automated spam, review counts, notification overload or productivity-app interfaces, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "calendar text, automated spam, review counts, notification overload or productivity-app interfaces"
+  ],
+  "accessibility": {
+    "alt_text": "Service tokens pair with blank follow-up cards on a weekly rhythm board.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Do not fabricate reviews, ratings, testimonials, customer identities, or incentives.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

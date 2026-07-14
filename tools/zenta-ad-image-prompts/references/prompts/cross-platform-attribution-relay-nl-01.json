@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "cross-platform-attribution-relay-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "cross-platform audit inquiry",
+    "service_id": "multi-platform-audit",
+    "audience": "businesses investing across Meta and Google Ads that need one coherent diagnostic view",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "De attributie-estafette",
+    "audience_insight": "Platformattributie en bedrijfsresultaat kunnen verschillende delen van dezelfde klantreis beschrijven.",
+    "message_angle": "De audit vergelijkt definities, vensters en overdrachten voordat totalen worden opgeteld.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Wie krijgt krediet is niet hetzelfde als wat er gebeurde.",
+    "hypothesis": "Een estafette met meerdere overdrachtszones zal attributieverschillen begrijpelijk maken zonder één kanaal als winnaar aan te wijzen."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "een abstracte estafetteroute met meerdere merkneutrale contactpunten en één eindresultaat",
+    "action": "een lichtsignaal wordt doorgegeven terwijl elke zone slechts een deel van de route ziet",
+    "environment": "een donkere atletische conceptstudio zonder mensen of platformkleuren",
+    "composition": "route loopt diagonaal, overdrachtszones centraal, resultaat rechtsboven, kopruimte linksboven",
+    "lighting": "heldere witte signaalstaf met lime route en cyan-violet zoneaccenten",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "dynamische editorial 3D met gecontroleerde beweging en zakelijke helderheid"
+  },
+  "copy": {
+    "overlay_headline": "Wie krijgt krediet is niet hetzelfde als wat er gebeurde.",
+    "overlay_support": "$325 Meta + Google Ads Audit",
+    "cta": "Vergelijk de meetdefinities",
+    "caption": "Attributie verdeelt krediet volgens definities en vensters. Een audit vergelijkt die regels met tracking en bedrijfsresultaat voordat conclusies worden getrokken."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is een abstracte estafetteroute met meerdere merkneutrale contactpunten en één eindresultaat. Show een lichtsignaal wordt doorgegeven terwijl elke zone slechts een deel van de route ziet. Set the scene in een donkere atletische conceptstudio zonder mensen of platformkleuren. Composition: route loopt diagonaal, overdrachtszones centraal, resultaat rechtsboven, kopruimte linksboven. Lighting: heldere witte signaalstaf met lime route en cyan-violet zoneaccenten. Visual style: dynamische editorial 3D met gecontroleerde beweging en zakelijke helderheid. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'De audit vergelijkt definities, vensters en overdrachten voordat totalen worden opgeteld.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Wie krijgt krediet is niet hetzelfde als wat er gebeurde.', support line '$325 Meta + Google Ads Audit', and CTA 'Vergelijk de meetdefinities' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid echte sporters, medailles, winnaars, platformlogo's of exacte attributiepercentages, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "echte sporters, medailles, winnaars, platformlogo's of exacte attributiepercentages"
+  ],
+  "accessibility": {
+    "alt_text": "Een lichtsignaal wordt door verschillende zones van een estafetteroute naar één eindresultaat doorgegeven.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $325 price and cross-platform scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

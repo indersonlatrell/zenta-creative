@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "google-verification-path-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Google Business Profile setup inquiry",
+    "service_id": "google-visibility",
+    "audience": "local business owners in Suriname whose essential discovery information is missing or unclear",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The verification path",
+    "audience_insight": "Business owners can feel stuck when profile setup and verification contain unfamiliar steps.",
+    "message_angle": "Zenta provides structured assistance through the process without implying control over platform approval.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Setup is a process. You do not have to guess it.",
+    "hypothesis": "A calm sequence of checkpoints will reduce perceived complexity while preserving the uncertainty of platform verification."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a sequence of four physical checkpoints leading toward a completed but unbranded business profile card",
+    "action": "each checkpoint illuminates in order while the final approval gate remains visibly external",
+    "environment": "a minimal dark process studio with tactile cards and mechanical gates",
+    "composition": "left-to-right pathway across lower half, large copy field above, final gate at far right",
+    "lighting": "soft directional studio light with lime progress cues and neutral final gate",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "precise process visualization using premium paper, glass, and metal"
+  },
+  "copy": {
+    "overlay_headline": "Setup is a process. You do not have to guess it.",
+    "overlay_support": "Google Business Profile + Maps",
+    "cta": "Get setup assistance",
+    "caption": "Profile creation and verification can involve several steps. Zenta can assist with setup and preparation, while final verification remains with the platform."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a sequence of four physical checkpoints leading toward a completed but unbranded business profile card. Show each checkpoint illuminates in order while the final approval gate remains visibly external. Set the scene in a minimal dark process studio with tactile cards and mechanical gates. Composition: left-to-right pathway across lower half, large copy field above, final gate at far right. Lighting: soft directional studio light with lime progress cues and neutral final gate. Visual style: precise process visualization using premium paper, glass, and metal. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Zenta provides structured assistance through the process without implying control over platform approval.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Setup is a process. You do not have to guess it.', support line 'Google Business Profile + Maps', and CTA 'Get setup assistance' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid approval guarantees, checkmark logos, Google branding, bureaucracy jokes or confusing flowcharts, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "approval guarantees, checkmark logos, Google branding, bureaucracy jokes or confusing flowcharts"
+  ],
+  "accessibility": {
+    "alt_text": "Four setup checkpoints lead toward an unbranded business profile card and an external final gate.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Do not imply guaranteed ranking, traffic, calls, visits, or Google affiliation.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

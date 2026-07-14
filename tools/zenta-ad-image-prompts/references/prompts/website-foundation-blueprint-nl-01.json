@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "website-foundation-blueprint-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "qualified WhatsApp project inquiry",
+    "service_id": "website-growth",
+    "audience": "owners of small and growing businesses in Suriname who need a clearer online presence",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "Digitale fundering",
+    "audience_insight": "Ondernemers zien vaak alleen het uiterlijk, terwijl structuur, snelheid en contactflow de ervaring dragen.",
+    "message_angle": "De website wordt gepresenteerd als een doordachte bedrijfsfundering, niet als losse decoratie.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Een sterke website begint onder de oppervlakte.",
+    "hypothesis": "Een tastbare bouwkundige metafoor maakt onzichtbare websitekwaliteit begrijpelijk zonder technische claims te overdrijven."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "een elegante website-etalage boven een zichtbare modulaire fundering van structuur, snelheid en contact",
+    "action": "de funderingslagen klikken precies in elkaar en dragen een rustige digitale etalage",
+    "environment": "een donkere architectuurstudio met fysieke maquette-elementen en geen beeldschermen",
+    "composition": "isometrische doorsnede centraal, open donkere ruimte linksboven, duidelijke verticale laagopbouw",
+    "lighting": "gerichte studiobelichting met lime accenten op verbindingen en cyan randlicht",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "verfijnde architectuurmaquette in editorial 3D met tastbare materialen"
+  },
+  "copy": {
+    "overlay_headline": "Een sterke website begint onder de oppervlakte.",
+    "overlay_support": "Websites + Google visibility",
+    "cta": "Bouw op een sterke basis",
+    "caption": "Een professionele website rust op meer dan kleur en vorm. Zenta bouwt structuur, mobiele duidelijkheid en een logische route naar contact samen."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is een elegante website-etalage boven een zichtbare modulaire fundering van structuur, snelheid en contact. Show de funderingslagen klikken precies in elkaar en dragen een rustige digitale etalage. Set the scene in een donkere architectuurstudio met fysieke maquette-elementen en geen beeldschermen. Composition: isometrische doorsnede centraal, open donkere ruimte linksboven, duidelijke verticale laagopbouw. Lighting: gerichte studiobelichting met lime accenten op verbindingen en cyan randlicht. Visual style: verfijnde architectuurmaquette in editorial 3D met tastbare materialen. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'De website wordt gepresenteerd als een doordachte bedrijfsfundering, niet als losse decoratie.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Een sterke website begint onder de oppervlakte.', support line 'Websites + Google visibility', and CTA 'Bouw op een sterke basis' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid bouwhelm-cliches, technische code, instortende constructies of overdreven futurisme, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "bouwhelm-cliches, technische code, instortende constructies of overdreven futurisme"
+  ],
+  "accessibility": {
+    "alt_text": "Een website-etalage staat op een zichtbare modulaire digitale fundering.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Verify the website package and any stated price against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "cross-platform-budget-balance-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "cross-platform audit inquiry",
+    "service_id": "multi-platform-audit",
+    "audience": "businesses investing across Meta and Google Ads that need one coherent diagnostic view",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The allocation table",
+    "audience_insight": "Equal budget splits can look tidy while ignoring objectives, marginal return, constraints, and measurement quality.",
+    "message_angle": "Budget allocation is framed as an evidence-weighted decision rather than a fixed formula.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Allocation needs evidence, not symmetry.",
+    "hypothesis": "An asymmetric balance table supported by evidence blocks will challenge simplistic equal-split thinking."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a precision balance table holding two channel vessels supported by different evidence blocks",
+    "action": "the table finds stability through evidence placement rather than equal quantities",
+    "environment": "a premium dark materials lab with glass vessels and tactile blocks",
+    "composition": "balance spans center, evidence blocks lower third, open copy zone upper-left",
+    "lighting": "white task light, lime balance axis, cyan and violet channel vessels",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "sophisticated financial-concept still life without money imagery"
+  },
+  "copy": {
+    "overlay_headline": "Allocation needs evidence, not symmetry.",
+    "overlay_support": "$325 Meta + Google Ads Audit",
+    "cta": "Review cross-platform budget",
+    "caption": "Cross-platform budget decisions depend on objectives, economics, measurement, constraints, and evidence. A neat split is not automatically the right split."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a precision balance table holding two channel vessels supported by different evidence blocks. Show the table finds stability through evidence placement rather than equal quantities. Set the scene in a premium dark materials lab with glass vessels and tactile blocks. Composition: balance spans center, evidence blocks lower third, open copy zone upper-left. Lighting: white task light, lime balance axis, cyan and violet channel vessels. Visual style: sophisticated financial-concept still life without money imagery. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Budget allocation is framed as an evidence-weighted decision rather than a fixed formula.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Allocation needs evidence, not symmetry.', support line '$325 Meta + Google Ads Audit', and CTA 'Review cross-platform budget' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid coins, cash, pie charts, guaranteed ROAS, automatic reallocation or perfectly equal scales, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "coins, cash, pie charts, guaranteed ROAS, automatic reallocation or perfectly equal scales"
+  ],
+  "accessibility": {
+    "alt_text": "Two channel vessels balance through differently sized evidence blocks rather than equal amounts.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $325 price and cross-platform scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

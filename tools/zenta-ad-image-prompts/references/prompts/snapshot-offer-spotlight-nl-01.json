@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "snapshot-offer-spotlight-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Public Ads Review inquiry",
+    "service_id": "ads-snapshot",
+    "audience": "small-business advertisers who want expert feedback without granting ad-account access",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "Aanbod in de spotlight",
+    "audience_insight": "Een aantrekkelijke advertentie kan nog steeds onduidelijk zijn over wat precies wordt aangeboden.",
+    "message_angle": "De openbare review onderzoekt of het aanbod visueel en inhoudelijk centraal staat.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Kan iemand je aanbod aanwijzen?",
+    "hypothesis": "Een toneelspot die het echte aanbodobject vindt tussen decor zal aanbodhelderheid direct voelbaar maken."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "een minimalistisch podium met één helder aanbodobject tussen meerdere decoratieve vormen",
+    "action": "een lime spotlight schuift van decor naar het centrale aanbodobject",
+    "environment": "een donkere theaterstudio met abstracte merkneutrale props",
+    "composition": "aanbodobject midden-rechts, spotlight diagonaal, rustige linkerbovenhoek voor tekst",
+    "lighting": "één krachtige lime-witte spot met subtiele cyan rand en diepe zwarte achtergrond",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "dramatische maar zakelijke editorial setfotografie met precieze focus"
+  },
+  "copy": {
+    "overlay_headline": "Kan iemand je aanbod aanwijzen?",
+    "overlay_support": "$49 Public Ads Review",
+    "cta": "Laat je advertentie beoordelen",
+    "caption": "Mooie vorm is niet genoeg als het aanbod onduidelijk blijft. De Public Ads Review kijkt naar creatief, aanbod, CTA en de aansluiting op je landingspagina."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is een minimalistisch podium met één helder aanbodobject tussen meerdere decoratieve vormen. Show een lime spotlight schuift van decor naar het centrale aanbodobject. Set the scene in een donkere theaterstudio met abstracte merkneutrale props. Composition: aanbodobject midden-rechts, spotlight diagonaal, rustige linkerbovenhoek voor tekst. Lighting: één krachtige lime-witte spot met subtiele cyan rand en diepe zwarte achtergrond. Visual style: dramatische maar zakelijke editorial setfotografie met precieze focus. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'De openbare review onderzoekt of het aanbod visueel en inhoudelijk centraal staat.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Kan iemand je aanbod aanwijzen?', support line '$49 Public Ads Review', and CTA 'Laat je advertentie beoordelen' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid theaterpubliek, verkoopprijzen, productclaims, confetti of dramatische rook, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "theaterpubliek, verkoopprijzen, productclaims, confetti of dramatische rook"
+  ],
+  "accessibility": {
+    "alt_text": "Een spotlight vindt één duidelijk aanbodobject tussen decoratieve vormen op een podium.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Verify the $49 price and public-review scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

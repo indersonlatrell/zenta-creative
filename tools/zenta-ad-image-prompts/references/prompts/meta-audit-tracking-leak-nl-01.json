@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "meta-audit-tracking-leak-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Full Meta Ads Audit inquiry",
+    "service_id": "meta-ads-audit",
+    "audience": "business owners and marketers spending on Meta ads without a clear evidence-backed diagnosis",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "Het meetsignaal",
+    "audience_insight": "Campagnebeslissingen zijn moeilijk te beoordelen wanneer gebeurtenisdefinities en signaalroutes onduidelijk zijn.",
+    "message_angle": "De audit onderzoekt de meetketen voordat prestatieconclusies worden getrokken.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Optimaliseren begint met weten wat je meet.",
+    "hypothesis": "Een fysieke signaalpijplijn met zichtbare verbindingen maakt meetkwaliteit begrijpelijk zonder technische diagnose te fabriceren."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "een transparante signaalpijplijn met invoer, deduplicatiepunt en eindgebeurtenis",
+    "action": "lichtpulsen bewegen door de pijplijn terwijl één onduidelijke verbinding voor inspectie wordt gemarkeerd",
+    "environment": "een donkere laboratoriumachtige studio zonder echte data of platformhardware",
+    "composition": "horizontale pijplijn midden, inspectiepunt rechts, ruime kopzone linksboven",
+    "lighting": "cyan signaalpulsen, lime inspectielicht en neutrale zwarte omgeving",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "verfijnde technische editorial 3D zonder sci-fi overdaad"
+  },
+  "copy": {
+    "overlay_headline": "Optimaliseren begint met weten wat je meet.",
+    "overlay_support": "$175 Full Meta Ads Audit",
+    "cta": "Laat je meting beoordelen",
+    "caption": "Voordat je conclusies trekt uit campagneresultaten, moet duidelijk zijn welke conversie wordt gemeten en hoe signalen worden verwerkt. Dat hoort bij de volledige audit."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is een transparante signaalpijplijn met invoer, deduplicatiepunt en eindgebeurtenis. Show lichtpulsen bewegen door de pijplijn terwijl één onduidelijke verbinding voor inspectie wordt gemarkeerd. Set the scene in een donkere laboratoriumachtige studio zonder echte data of platformhardware. Composition: horizontale pijplijn midden, inspectiepunt rechts, ruime kopzone linksboven. Lighting: cyan signaalpulsen, lime inspectielicht en neutrale zwarte omgeving. Visual style: verfijnde technische editorial 3D zonder sci-fi overdaad. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'De audit onderzoekt de meetketen voordat prestatieconclusies worden getrokken.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Optimaliseren begint met weten wat je meet.', support line '$175 Full Meta Ads Audit', and CTA 'Laat je meting beoordelen' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid lekkende vloeistof, rode foutmeldingen, echte eventnamen, Pixel-logo's of technische garanties, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "lekkende vloeistof, rode foutmeldingen, echte eventnamen, Pixel-logo's of technische garanties"
+  ],
+  "accessibility": {
+    "alt_text": "Lichtpulsen bewegen door een transparante meetpijplijn met één gemarkeerd inspectiepunt.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $175 price and full-audit scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "meta-audit-budget-fog-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Full Meta Ads Audit inquiry",
+    "service_id": "meta-ads-audit",
+    "audience": "business owners and marketers spending on Meta ads without a clear evidence-backed diagnosis",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "Budget in de mist",
+    "audience_insight": "Budgetadvies zonder conversiedefinitie, marges, looptijd en campagnestatus kan misleidend zijn.",
+    "message_angle": "De audit plaatst budget in de context van meting, doel en accountfase.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Zonder context is meer budget geen strategie.",
+    "hypothesis": "Een route door mist die pas helder wordt na contextbakens zal verantwoord budgetdenken visualiseren."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "een budgetstroom die een mistig landschap binnenkomt met bakens voor doel, meting en tijd",
+    "action": "de mist trekt alleen op waar de drie contextbakens samen zichtbaar zijn",
+    "environment": "een abstract donker landschap met tactiele datastromen en geen valuta-iconen",
+    "composition": "budgetstroom linksonder, drie bakens centraal, heldere route rechtsboven",
+    "lighting": "gedempt cyan mistlicht met lime helderheid rond de contextbakens",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "cinematische conceptuele 3D met rustige zakelijke symboliek"
+  },
+  "copy": {
+    "overlay_headline": "Zonder context is meer budget geen strategie.",
+    "overlay_support": "$175 Full Meta Ads Audit",
+    "cta": "Laat budget en resultaat samen beoordelen",
+    "caption": "Meer of minder budget is pas zinvol in context. Een audit bekijkt doel, meting, data, accountfase en budget samen voordat er prioriteiten worden voorgesteld."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is een budgetstroom die een mistig landschap binnenkomt met bakens voor doel, meting en tijd. Show de mist trekt alleen op waar de drie contextbakens samen zichtbaar zijn. Set the scene in een abstract donker landschap met tactiele datastromen en geen valuta-iconen. Composition: budgetstroom linksonder, drie bakens centraal, heldere route rechtsboven. Lighting: gedempt cyan mistlicht met lime helderheid rond de contextbakens. Visual style: cinematische conceptuele 3D met rustige zakelijke symboliek. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'De audit plaatst budget in de context van meting, doel en accountfase.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Zonder context is meer budget geen strategie.', support line '$175 Full Meta Ads Audit', and CTA 'Laat budget en resultaat samen beoordelen' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid geldstapels, dollartekens, winstclaims, stoplichten of automatische budgetbeslissingen, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "geldstapels, dollartekens, winstclaims, stoplichten of automatische budgetbeslissingen"
+  ],
+  "accessibility": {
+    "alt_text": "Een budgetstroom vindt een heldere route door mist dankzij bakens voor doel, meting en tijd.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $175 price and full-audit scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

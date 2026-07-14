@@ -1,6 +1,6 @@
 ---
 name: zenta-ad-image-prompts
-description: Create, validate, store, retrieve, and render expert JSON image prompts for Zenta Creative paid ads and organic social posts. Use when asked for Zenta ad images, image-ad prompts, promotional post concepts, social image prompts, creative variants, a JSON prompt library, Google Drive prompt storage, or when a saved Zenta prompt should be sent to ChatGPT image generation.
+description: Create, validate, store, and retrieve expert JSON image prompts for Zenta Creative paid ads and organic social posts. Use when asked for Zenta image-ad prompts, promotional post concepts, social image prompts, creative variants, separate JSON prompt files, or Google Drive prompt storage. This skill produces prompt files only and never generates images.
 ---
 
 # Zenta Ad Image Prompts
@@ -12,7 +12,7 @@ measured performance separate.
 ## Load References
 
 1. Read `references/zenta-brand-profile.json` for approved brand and offer facts.
-2. Read `references/prompt-library.schema.json` before producing or editing JSON.
+2. Read `references/prompt.schema.json` before producing or editing JSON.
 3. Read `references/storage.json` for the canonical Google Drive folder.
 4. Load the installed `ads` thinking framework and `ads-creative` skill for
    creative production or review.
@@ -46,7 +46,7 @@ the assumption in `library.assumptions` and continue with a draft.
    across likely crops. Require account preview before publication.
 6. Prefer one short overlay headline and one CTA. Put detailed copy in the post
    caption, not into tiny generated typography.
-7. Include a complete provider-neutral `generation_prompt`, exact overlay copy,
+7. Include a complete provider-neutral `image_prompt`, exact overlay copy,
    negative constraints, alt text, claim review, and production notes.
 8. Treat every output as a human-review draft, never as proof of performance or
    authorization to publish.
@@ -54,22 +54,23 @@ the assumption in `library.assumptions` and continue with a draft.
 ## JSON Contract
 
 Return valid JSON only when the user asks for prompts. Do not wrap it in Markdown.
-Use schema version `1.0.0` and the structure in
-`references/prompt-library.schema.json`.
+Use schema version `2.0.0` and the structure in `references/prompt.schema.json`.
+Create exactly one prompt object per file. Never place multiple prompts in an array.
 
 Every item must include:
 
 - stable `prompt_id` and `content_type`;
 - campaign context and creative strategy;
 - format intent with platform-preview status;
-- visual direction and exact `generation_prompt`;
-- overlay, caption, CTA, and `render_text_in_image` decision;
+- visual direction and exact `image_prompt`;
+- overlay, caption, CTA, and typography-production decision;
 - negative constraints, accessibility, compliance, and production review.
 
 Write the JSON to a local file and run:
 
 ```bash
-python3 scripts/validate_prompt_library.py path/to/library.json
+python3 scripts/validate_prompt.py path/to/prompt.json
+python3 scripts/validate_prompt.py references/prompts
 ```
 
 Do not store or upload invalid JSON.
@@ -84,30 +85,25 @@ For storage:
 1. Resolve the folder ID from `references/storage.json`, then verify its metadata.
    If it is unavailable, search for the exact folder name and confirm its folder MIME type.
 2. Create it in My Drive only if no exact folder exists.
-3. Name files `YYYY-MM-DD__campaign-slug__vNN.json`.
-4. Upload the validated JSON to that folder.
-5. Read back file metadata and retain the observed folder and file IDs.
-6. Never overwrite an existing library silently; create a new version.
+3. Store individual prompt files in the Drive child folder named `Individual Prompts`.
+4. Name files `<prompt-id>.json`; every file must contain that same `prompt_id`.
+5. Upload each validated JSON as its own Drive file.
+6. Read back file metadata and retain the observed folder and file IDs.
+7. Never overwrite an existing prompt silently; create a versioned prompt ID.
 
 For retrieval:
 
 1. Search or list the canonical folder.
 2. Select the requested campaign, service, locale, or `prompt_id`.
-3. Fetch the JSON and validate it before use.
+3. Fetch the individual JSON file and validate it before use.
 4. If several prompts match, show concise IDs and concepts for selection.
 
-## Image Generation Handoff
+## Prompt-Only Boundary
 
-When the user asks to generate a saved prompt:
+Never call an image-generation tool. Never generate, edit, or render an image.
+Return or retrieve the requested JSON prompt file only. Keep official logos and
+wordmarks out of `image_prompt`; reserve clean space so approved brand assets and
+exact copy can be added during final design production.
 
-1. Retrieve and validate the selected Drive JSON.
-2. Confirm the exact `prompt_id`; infer it only when one match exists.
-3. Load the `imagegen` skill.
-4. Send `generation_prompt` to ChatGPT image generation. Include approved
-   reference images only when attached or available by valid local path.
-5. Generate one draft unless the user requests a batch.
-6. Do not imply the result is platform-approved or ready to publish. The JSON's
-   human review, crop preview, text, logo, claim, and accessibility checks remain.
-
-Do not send confidential client data, customer lists, credentials, private ad
-exports, or unapproved likenesses to image generation or Google Drive.
+Do not store confidential client data, customer lists, credentials, private ad
+exports, or unapproved likenesses in prompt files or Google Drive.

@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "snapshot-cta-maze-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Public Ads Review inquiry",
+    "service_id": "ads-snapshot",
+    "audience": "small-business advertisers who want expert feedback without granting ad-account access",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The CTA maze",
+    "audience_insight": "Competing actions can make the intended next step harder to understand.",
+    "message_angle": "The review identifies whether the CTA path is singular and consistent.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "One ad should not ask for five different things.",
+    "hypothesis": "A visual maze collapsing into one path will dramatize CTA conflict while avoiding performance promises."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a tactile maze with several dead-end action arrows and one calm direct exit",
+    "action": "the unnecessary paths retract while a lime route remains",
+    "environment": "a premium black tabletop puzzle with glass walls and matte arrows",
+    "composition": "maze lower-right, direct exit points toward reserved CTA area, large headline field upper-left",
+    "lighting": "top-down studio light with cyan glass edges and one lime path",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "sophisticated conceptual product still life, precise and uncluttered"
+  },
+  "copy": {
+    "overlay_headline": "One ad should not ask for five different things.",
+    "overlay_support": "$49 Public Ads Review",
+    "cta": "Clarify the next step",
+    "caption": "A strong ad makes the next step understandable. Zenta's public review checks whether creative, offer, CTA, and destination tell one coherent story."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a tactile maze with several dead-end action arrows and one calm direct exit. Show the unnecessary paths retract while a lime route remains. Set the scene in a premium black tabletop puzzle with glass walls and matte arrows. Composition: maze lower-right, direct exit points toward reserved CTA area, large headline field upper-left. Lighting: top-down studio light with cyan glass edges and one lime path. Visual style: sophisticated conceptual product still life, precise and uncluttered. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'The review identifies whether the CTA path is singular and consistent.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'One ad should not ask for five different things.', support line '$49 Public Ads Review', and CTA 'Clarify the next step' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid game graphics, people trapped in a maze, conversion-rate numbers or aggressive warning symbols, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "game graphics, people trapped in a maze, conversion-rate numbers or aggressive warning symbols"
+  ],
+  "accessibility": {
+    "alt_text": "A complex maze retracts into one clear lime path toward an exit.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Verify the $49 price and public-review scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

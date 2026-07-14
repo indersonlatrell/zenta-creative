@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "growth-site-digital-front-door-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "qualified WhatsApp project inquiry",
+    "service_id": "website-growth",
+    "audience": "Suriname business owners whose online presence does not clearly turn discovery into contact",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The digital front door",
+    "audience_insight": "A business owner may have social profiles but still lack one credible place that explains the offer and makes contact easy.",
+    "message_angle": "A website and Google presence work together as the business's digital front door.",
+    "framework": "Before-After-Bridge",
+    "hook": "Your business deserves more than a link.",
+    "hypothesis": "A tangible digital-front-door metaphor will make the combined website and visibility offer easier to understand than a generic website mockup."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the owner, glowing doorway, headline area, and Zenta brand cue inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "A confident Suriname small-business owner standing at the threshold of a luminous digital storefront",
+    "action": "The owner opens a sleek dark doorway that reveals a clear website, local discovery, and WhatsApp contact journey",
+    "environment": "Contemporary Paramaribo commercial setting with subtle tropical daylight and no identifiable private business branding",
+    "composition": "Full-bleed portrait composition; human subject in the lower-left third, luminous doorway in the center, clean dark negative space across the upper third for a short headline",
+    "lighting": "Cinematic natural daylight mixed with restrained lime and cyan interface glow",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "Premium editorial advertising photography with realistic people, crisp dimensional lighting, and minimal abstract digital interface cues"
+  },
+  "copy": {
+    "overlay_headline": "Your business deserves more than a link.",
+    "overlay_support": "Website + Google visibility",
+    "cta": "Start your project",
+    "caption": "Give customers one clear place to understand your business, trust what they see, and reach you. Zenta builds conversion-focused websites with Google visibility and WhatsApp contact flows for businesses in Suriname."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is A confident Suriname small-business owner standing at the threshold of a luminous digital storefront. Show The owner opens a sleek dark doorway that reveals a clear website, local discovery, and WhatsApp contact journey. Set the scene in Contemporary Paramaribo commercial setting with subtle tropical daylight and no identifiable private business branding. Composition: Full-bleed portrait composition; human subject in the lower-left third, luminous doorway in the center, clean dark negative space across the upper third for a short headline. Lighting: Cinematic natural daylight mixed with restrained lime and cyan interface glow. Visual style: Premium editorial advertising photography with realistic people, crisp dimensional lighting, and minimal abstract digital interface cues. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'A website and Google presence work together as the business's digital front door.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Your business deserves more than a link.', support line 'Website + Google visibility', and CTA 'Start your project' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid no distorted faces, fingers, laptops, or phones, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "no distorted faces, fingers, laptops, or phones"
+  ],
+  "accessibility": {
+    "alt_text": "A Suriname business owner opens a glowing digital storefront that symbolizes a connected website, Google visibility, and WhatsApp contact journey.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Verify the website package and any stated price against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

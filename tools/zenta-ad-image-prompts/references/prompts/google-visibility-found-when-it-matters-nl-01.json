@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "google-visibility-found-when-it-matters-nl-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Google Business Profile setup inquiry",
+    "service_id": "google-visibility",
+    "audience": "Lokale ondernemers in Suriname met een ontbrekend, onvolledig of onduidelijk bedrijfsprofiel",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "Dutch"
+  },
+  "creative_strategy": {
+    "concept_name": "Het beslissende zoekmoment",
+    "audience_insight": "Een klant zoekt vaak op locatie, openingstijd of dienst vlak voordat die belt, bezoekt of een bericht stuurt.",
+    "message_angle": "Maak essentiële bedrijfsinformatie duidelijk op het moment dat een klant zoekt.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Word gevonden wanneer het telt.",
+    "hypothesis": "Een herkenbaar lokaal zoekmoment zal de waarde van correcte bedrijfsinformatie sterker maken dan een abstracte uitleg over profieloptimalisatie."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the searcher, storefront, directional light path, headline, and brand mark within a centered crop-safe composition."
+  },
+  "visual_direction": {
+    "subject": "Een klant in Paramaribo die op een smartphone een lokaal bedrijf probeert te vinden",
+    "action": "Een abstracte lichtlijn verbindt de zoekactie op de telefoon met een echte professionele winkelpui",
+    "environment": "Een geloofwaardige, moderne straat met Surinaamse stedelijke details zonder herkenbare bedrijfsnamen",
+    "composition": "Portrait split-depth scene with the searching customer in the foreground right, the business entrance in the midground left, and uncluttered dark space above for copy",
+    "lighting": "Warm late-afternoon daylight balanced with a precise lime navigation glow",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#FFB86B"
+    ],
+    "style": "Authentieke commerciële fotografie met subtiele ruimtelijke digitale signalen en een rustige, professionele uitstraling"
+  },
+  "copy": {
+    "overlay_headline": "Word gevonden wanneer het telt.",
+    "overlay_support": "Google Bedrijfsprofiel + Maps",
+    "cta": "Stel je profiel goed in",
+    "caption": "Klanten zoeken naar je locatie, openingstijden en contactgegevens voordat ze een keuze maken. Zenta helpt bedrijven in Suriname hun Google Bedrijfsprofiel en Maps-informatie duidelijk in te stellen of te verbeteren."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is Een klant in Paramaribo die op een smartphone een lokaal bedrijf probeert te vinden. Show Een abstracte lichtlijn verbindt de zoekactie op de telefoon met een echte professionele winkelpui. Set the scene in Een geloofwaardige, moderne straat met Surinaamse stedelijke details zonder herkenbare bedrijfsnamen. Composition: Portrait split-depth scene with the searching customer in the foreground right, the business entrance in the midground left, and uncluttered dark space above for copy. Lighting: Warm late-afternoon daylight balanced with a precise lime navigation glow. Visual style: Authentieke commerciële fotografie met subtiele ruimtelijke digitale signalen en een rustige, professionele uitstraling. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #FFB86B; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Maak essentiële bedrijfsinformatie duidelijk op het moment dat een klant zoekt.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Word gevonden wanneer het telt.', support line 'Google Bedrijfsprofiel + Maps', and CTA 'Stel je profiel goed in' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid geen vervormde handen, telefoon of gezichten, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "geen vervormde handen, telefoon of gezichten"
+  ],
+  "accessibility": {
+    "alt_text": "Een klant zoekt op een smartphone naar een lokaal bedrijf terwijl een lichtlijn de telefoon met de bedrijfsentree verbindt.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Do not imply guaranteed ranking, traffic, calls, visits, or Google affiliation.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

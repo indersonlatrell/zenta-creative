@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "snapshot-public-xray-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Public Ads Review inquiry",
+    "service_id": "ads-snapshot",
+    "audience": "small-business advertisers who want expert feedback without granting ad-account access",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The public creative x-ray",
+    "audience_insight": "Some business owners want useful feedback before they are ready to share account data.",
+    "message_angle": "Public creative, offer, CTA, and destination evidence can support a bounded first review.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "What can an expert see without account access?",
+    "hypothesis": "A transparent layered poster will show the limits and value of public review without implying hidden account access."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a layered translucent advertising poster separated into creative, offer, action, and destination planes",
+    "action": "the four public-facing layers slide apart for inspection while a sealed account-data core remains untouched",
+    "environment": "a dark conservation studio for visual artifacts",
+    "composition": "exploded poster layers centered, sealed core small in background, left copy space",
+    "lighting": "precise museum light with lime layer edges and cyan depth",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "premium technical editorial still life with transparent materials"
+  },
+  "copy": {
+    "overlay_headline": "What can an expert see without account access?",
+    "overlay_support": "$49 Public Ads Review",
+    "cta": "Get the public review",
+    "caption": "A public review can assess visible creative, offer, CTA, and landing-page consistency without ad-account access. It remains different from a full account audit."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a layered translucent advertising poster separated into creative, offer, action, and destination planes. Show the four public-facing layers slide apart for inspection while a sealed account-data core remains untouched. Set the scene in a dark conservation studio for visual artifacts. Composition: exploded poster layers centered, sealed core small in background, left copy space. Lighting: precise museum light with lime layer edges and cyan depth. Visual style: premium technical editorial still life with transparent materials. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Public creative, offer, CTA, and destination evidence can support a bounded first review.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'What can an expert see without account access?', support line '$49 Public Ads Review', and CTA 'Get the public review' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid medical x-rays, surveillance imagery, password fields, hidden-data claims or hacker aesthetics, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "medical x-rays, surveillance imagery, password fields, hidden-data claims or hacker aesthetics"
+  ],
+  "accessibility": {
+    "alt_text": "A public advertising poster separates into four inspectable layers while account data remains sealed.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "medium",
+    "required_review": [
+      "Verify the $49 price and public-review scope against the live Zenta website.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

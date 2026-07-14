@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0.0",
+  "prompt_id": "google-local-discovery-window-en-01",
+  "brand": "Zenta Creative",
+  "created_at": "2026-07-14T07:00:00-03:00",
+  "status": "draft_for_human_review",
+  "content_type": "paid_ad_image",
+  "assumptions": [
+    "The concept targets businesses in Suriname unless a narrower audience is supplied.",
+    "Placement dimensions, safe areas, eligibility, and overlays require current platform preview before publication.",
+    "Exact copy and the official Zenta logo will be added during final design production, not image prompting."
+  ],
+  "campaign": {
+    "objective": "lead generation",
+    "conversion": "Google Business Profile setup inquiry",
+    "service_id": "google-visibility",
+    "audience": "local business owners in Suriname whose essential discovery information is missing or unclear",
+    "funnel_stage": "consideration",
+    "platforms": [
+      "Meta"
+    ],
+    "placements": [
+      "Facebook Feed",
+      "Instagram Feed"
+    ],
+    "geography": "Suriname",
+    "language": "English"
+  },
+  "creative_strategy": {
+    "concept_name": "The discovery window",
+    "audience_insight": "The business does not control when a local customer begins searching, but it can control whether essential information is clear.",
+    "message_angle": "Google visibility is framed as a well-prepared discovery window rather than a ranking promise.",
+    "framework": "Feature-Advantage-Benefit",
+    "hook": "Be clear when customers are looking.",
+    "hypothesis": "A prepared display-window metaphor will connect profile completeness with customer readiness without using platform trade dress."
+  },
+  "format": {
+    "aspect_ratio": "4:5",
+    "orientation": "portrait",
+    "spec_status": "needs_platform_preview",
+    "crop_guidance": "Keep the focal subject and reserved copy area inside the central composition with generous edge clearance."
+  },
+  "visual_direction": {
+    "subject": "a beautifully organized local business display window containing abstract cues for place, hours, service, and contact",
+    "action": "a passerby pauses because the essential information is visually coherent and easy to scan",
+    "environment": "a contemporary Paramaribo street in soft early-evening light",
+    "composition": "display window fills right two-thirds, passerby silhouette lower-left, clean upper-left copy field",
+    "lighting": "warm storefront light balanced by cool dusk and one precise lime accent",
+    "palette": [
+      "#030507",
+      "#F4F7FB",
+      "#B9FF66",
+      "#5EE7FF",
+      "#9B7CFF"
+    ],
+    "style": "cinematic retail editorial photography with elegant conceptual merchandising"
+  },
+  "copy": {
+    "overlay_headline": "Be clear when customers are looking.",
+    "overlay_support": "Google Business Profile + Maps",
+    "cta": "Set up your Google profile",
+    "caption": "When customers look for a local business, essential information should be easy to understand. Zenta helps organize your Google Business Profile and Maps presence."
+  },
+  "image_prompt": "Create a polished 4:5 base image concept for a Zenta Creative paid ad image. The central subject is a beautifully organized local business display window containing abstract cues for place, hours, service, and contact. Show a passerby pauses because the essential information is visually coherent and easy to scan. Set the scene in a contemporary Paramaribo street in soft early-evening light. Composition: display window fills right two-thirds, passerby silhouette lower-left, clean upper-left copy field. Lighting: warm storefront light balanced by cool dusk and one precise lime accent. Visual style: cinematic retail editorial photography with elegant conceptual merchandising. Use Zenta's near-black foundation with the controlled palette #030507, #F4F7FB, #B9FF66, #5EE7FF, #9B7CFF; keep lime as the decisive action accent rather than flooding the image with one hue. The image must communicate the strategic angle 'Google visibility is framed as a well-prepared discovery window rather than a ranking promise.' without claiming a result. Reserve clean, high-contrast negative space for the headline 'Be clear when customers are looking.', support line 'Google Business Profile + Maps', and CTA 'Set up your Google profile' to be typeset later by a designer. Do not render any words, letters, prices, logo, wordmark, platform mark, interface copy, or functional QR code inside the base image. Keep the focal subject and copy-safe space comfortably away from edges for placement preview. Avoid search-result screenshots, rankings, crowd scenes, sale signage or fake business names, fake evidence, visual clutter, and distorted objects or anatomy.",
+  "negative_constraints": [
+    "no generated logo, wordmark, trademark, or third-party platform branding",
+    "no fabricated metrics, rankings, leads, revenue, testimonials, or guarantees",
+    "no copied Google, Meta, Facebook, Instagram, or WhatsApp interface",
+    "no tiny unreadable text, random letters, watermark, or signature",
+    "no stereotypes, unapproved likenesses, or identifiable private customer data",
+    "search-result screenshots, rankings, crowd scenes, sale signage or fake business names"
+  ],
+  "accessibility": {
+    "alt_text": "A passerby views an organized storefront window with cues for location, hours, services, and contact.",
+    "contrast_note": "Typeset final copy in white or near-black on a solid high-contrast area and verify readability at mobile size."
+  },
+  "compliance": {
+    "claim_risk": "low",
+    "required_review": [
+      "Do not imply guaranteed ranking, traffic, calls, visits, or Google affiliation.",
+      "Confirm the base image contains no generated branding, fake proof, copied platform trade dress, or private data.",
+      "Preview final typography, logo placement, crop, and overlays in every intended placement."
+    ]
+  },
+  "production": {
+    "typography_instruction": "Add the exact overlay copy later using Zenta's bold modern geometric sans-serif system; do not ask an image model to typeset it.",
+    "logo_instruction": "Reserve space for the approved Zenta logo and place the original brand asset only during final design production.",
+    "human_review_required": true
+  }
+}

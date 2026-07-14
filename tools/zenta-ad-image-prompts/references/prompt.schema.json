@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zentacreative.com/schemas/ad-image-prompt-2.0.0.json",
+  "title": "Zenta Individual Ad Image Prompt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "prompt_id",
+    "brand",
+    "created_at",
+    "status",
+    "content_type",
+    "assumptions",
+    "campaign",
+    "creative_strategy",
+    "format",
+    "visual_direction",
+    "copy",
+    "image_prompt",
+    "negative_constraints",
+    "accessibility",
+    "compliance",
+    "production"
+  ],
+  "properties": {
+    "schema_version": { "const": "2.0.0" },
+    "prompt_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "brand": { "const": "Zenta Creative" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["draft_for_human_review", "approved_for_production"] },
+    "content_type": { "enum": ["paid_ad_image", "organic_image_post"] },
+    "assumptions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "campaign": { "$ref": "#/$defs/campaign" },
+    "creative_strategy": { "$ref": "#/$defs/creativeStrategy" },
+    "format": { "$ref": "#/$defs/format" },
+    "visual_direction": { "$ref": "#/$defs/visualDirection" },
+    "copy": { "$ref": "#/$defs/copy" },
+    "image_prompt": { "type": "string", "minLength": 300 },
+    "negative_constraints": { "type": "array", "minItems": 5, "items": { "type": "string", "minLength": 2 } },
+    "accessibility": { "$ref": "#/$defs/accessibility" },
+    "compliance": { "$ref": "#/$defs/compliance" },
+    "production": { "$ref": "#/$defs/production" }
+  },
+  "$defs": {
+    "campaign": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["objective", "conversion", "service_id", "audience", "funnel_stage", "platforms", "placements", "geography", "language"],
+      "properties": {
+        "objective": { "type": "string" },
+        "conversion": { "type": "string" },
+        "service_id": { "type": "string" },
+        "audience": { "type": "string" },
+        "funnel_stage": { "enum": ["awareness", "consideration", "conversion", "retention"] },
+        "platforms": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "placements": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "geography": { "type": "string" },
+        "language": { "type": "string" }
+      }
+    },
+    "creativeStrategy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["concept_name", "audience_insight", "message_angle", "framework", "hook", "hypothesis"],
+      "properties": {
+        "concept_name": { "type": "string" },
+        "audience_insight": { "type": "string" },
+        "message_angle": { "type": "string" },
+        "framework": { "type": "string" },
+        "hook": { "type": "string" },
+        "hypothesis": { "type": "string" }
+      }
+    },
+    "format": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["aspect_ratio", "orientation", "spec_status", "crop_guidance"],
+      "properties": {
+        "aspect_ratio": { "type": "string", "pattern": "^[0-9]+:[0-9]+$" },
+        "orientation": { "enum": ["square", "portrait", "landscape"] },
+        "spec_status": { "enum": ["verified_current", "needs_platform_preview", "organic_only"] },
+        "crop_guidance": { "type": "string" }
+      }
+    },
+    "visualDirection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subject", "action", "environment", "composition", "lighting", "palette", "style"],
+      "properties": {
+        "subject": { "type": "string" },
+        "action": { "type": "string" },
+        "environment": { "type": "string" },
+        "composition": { "type": "string" },
+        "lighting": { "type": "string" },
+        "palette": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+        "style": { "type": "string" }
+      }
+    },
+    "copy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["overlay_headline", "overlay_support", "cta", "caption"],
+      "properties": {
+        "overlay_headline": { "type": "string" },
+        "overlay_support": { "type": "string" },
+        "cta": { "type": "string" },
+        "caption": { "type": "string" }
+      }
+    },
+    "accessibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["alt_text", "contrast_note"],
+      "properties": {
+        "alt_text": { "type": "string" },
+        "contrast_note": { "type": "string" }
+      }
+    },
+    "compliance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim_risk", "required_review"],
+      "properties": {
+        "claim_risk": { "enum": ["low", "medium", "high"] },
+        "required_review": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      }
+    },
+    "production": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["typography_instruction", "logo_instruction", "human_review_required"],
+      "properties": {
+        "typography_instruction": { "type": "string" },
+        "logo_instruction": { "type": "string" },
+        "human_review_required": { "const": true }
+      }
+    }
+  }
+}
