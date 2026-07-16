@@ -1,0 +1,8 @@
+name = "zenta-capi"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+PIXEL_ID = "965321093221156"
+ALLOWED_ORIGIN = "https://zentacreative.com"
+GRAPH_VERSION = "v21.0"
